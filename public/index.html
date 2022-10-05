@@ -7,7 +7,7 @@
 		<title>SKIT</title>
 		<meta name="description" content="SKIT is an advanced front-end for web software development.">
 		<link rel="shortcut icon" href="favicon.ico">
-		<link rel="stylesheet" href="css/skit.css">
+		<link rel="stylesheet" href="css/site.css">
 		<link rel="stylesheet" href="assets/skit-dist/skit.css">
 		<meta property="og:title" content="Skit">
 		<meta property="og:site_name" content="Skit">
@@ -18,14 +18,61 @@
 		<meta property="og:image:alt" content="SKIT">
 		<meta property="og:image:width" content="1200">
 		<meta property="og:image:height" content="630">
+		<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css'>
+		<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css'>
 	</head>
 	<body>
-		<div class="center">
-			<div>
-				<img class="preview" alt="skit" src="assets/skit.png" />
-				<h1>SKIT</h1>
-				<p>Coming soon</p>
+		<header>
+			<nav class="nav">
+				<a href="/" data-title="Home"><img class="preview" alt="skit" src="assets/skit.png" /></a>
+				<a href="/docs.html" data-title="Documentation"><i class="fi fi-rs-document-signed"></i> DOCS</a>
+				<a href="/donate.html" data-title="Donate"><i class="fi fi-rs-usd-circle"></i> DONATE</a>
+				<a target="_blank" rel="no-follow" href="https://discord.gg/sveP5Ecb"><i class="fi fi-brands-discord"></i> DISCORD</a>
+				<a target="_blank" rel="no-follow" href="https://www.instagram.com/skit.network/"><i class="fi fi-brands-instagram"></i> INSTAGRAM</a>
+				<a target="_blank" rel="no-follow" href="https://github.com/themoiza/skit/"><i class="fi fi-brands-github"></i> CONTRIBUTE</a>
+			</nav>
+		</header>
+		<section class="center">
+			<p><img class="preview" alt="skit" src="assets/skit.png" /></p>
+			<h1>SKIT</h1>
+			<p>SKIT is an advanced front-end for web software development.</p>
+		</section>
+		<section>
+			<div class="flex">
+				<div class="col-flex-6">
+					<div class="pdr2">
+						<h2>Use Skit Dist</h2>
+						<div class="field w100p">
+							<textarea aria-label="use skit dist" rows="13" readonly>&lt;!DOCTYPE&nbsp;html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;link&nbsp;rel=&quot;stylesheet&quot;&nbsp;href=&quot;https://skit.network/assets/skit&#45;dist/skit.css&quot;&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;script&nbsp;src=&quot;https://skit.network/assets/skit&#45;dist/skit.js&quot;&gt;&lt;/script&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+</textarea>
+						</div>
+					</div>
+				</div>
+				<div class="col-flex-6">
+					<div class="pdl2">
+						<h2>Clone</h2>
+						<div class="flex">
+							<div class="col-flex-9">
+								<div class="field w100p">
+									<input type="text" aria-label="git clone" readonly value="git clone git@github.com:themoiza/skit.git" />
+								</div>
+							</div>
+							<div class="col-flex-3">
+								<button class="btn btn-pri w100p">COPY</button>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
-		</div>
+		</section>
+		<script src="assets/skit-dist/skit.js"></script>
 	</body>
 </html>
