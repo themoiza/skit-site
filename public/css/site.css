@@ -404,3 +404,8 @@ code.hljs {
 		--background-lig-soft: 80%;
 	}
 }
+
+i.fi{
+	display: inline-block;
+	vertical-align: top;
+}
