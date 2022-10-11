@@ -406,7 +406,8 @@ class Router{
 			'/': 'Index::/js/pages/index.js',
 			'docs': 'Docs::/js/pages/docs.js',
 			'donate': 'Donate::/js/pages/donate.js',
-			'icons': 'Icons::/js/pages/icons.js'
+			'icons': 'Icons::/js/pages/icons.js',
+			'modalcomp': 'Modalcomp::/js/pages/modalcomp.js'
 		};
 
 		routers['auth'] = {};

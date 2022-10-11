@@ -6,11 +6,32 @@ classes.Icons = class {
 
 		this.title = 'Icons';
 		this.description = 'Icons';
+
+		this.modalCopy;
+
+		this.vueIcons;
 	}
 
 	content(){
 
 		return `
+			<dialog id="idModalCopy" class="Modal">
+				<div class="TopBar">
+					<div class="Move">VIEW ICON</div>
+					<div class="Close"><button onclick="pages.icons.modalCopy.close()">⨉</button></div>
+				</div>
+				<div class="ModalContent">
+					<div class="pd1 mgb3 mgt3">
+						<h2 class="tx-center" style="font-size: 8rem" id="idH2SelectedIcon"></h2>
+						<div class="tx-center">
+							<div class="field">
+								<input id="idSelectedIcon" type="text" readonly />
+							</div>
+							<button class="btn" onclick="Copy.id('idSelectedIcon')" data-title="copy to clipboard"><i class="fi-rs-copy"></i> COPY</button>
+						</div>
+					</div>
+				</div>
+			</dialog>
 			<div class="flex">
 				<div class="col-flex-220px">
 					`+window.menu+`
@@ -51,9 +72,12 @@ classes.Icons = class {
 
 		el.innerHTML = page;
 
-		var icons = new Vue({
+		this.modalCopy = new Modal('idModalCopy');
+
+		this.vueIcons = new Vue({
 			el: '#idIcons',
 			data: {
+				page: this,
 				searchQuery: '',
 				selectedIcon: '',
 				icons: [
@@ -1205,11 +1229,12 @@ classes.Icons = class {
 			methods: {
 
 				show: function(icon) {
-					this.selectedIcon = '<i class="'+icon+'"></i>';
-				},
-				copy: function(){
-					Copy.string(this.selectedIcon);
-					this.selectedIcon = '';
+
+					this.page.modalCopy.open();
+					this.page.modalCopy.setTitle(icon);
+
+					idSelectedIcon.value = '<i class="'+icon+'"></i>';
+					idH2SelectedIcon.innerHTML = '<i class="'+icon+'"></i>';
 				}
 			}
 		});
