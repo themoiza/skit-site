@@ -15,19 +15,23 @@ classes.Icons = class {
 	content(){
 
 		return `
-			<dialog id="idModalCopy" class="Modal">
+			<dialog id="idModalCopy" class="Modal" style="width: 40rem;">
 				<div class="TopBar">
 					<div class="Move">VIEW ICON</div>
-					<div class="Close"><button onclick="pages.icons.modalCopy.close()">⨉</button></div>
+					<div class="Close"><button type="button" data-title="close" onclick="pages.icons.modalCopy.close()">⨉</button></div>
 				</div>
 				<div class="ModalContent">
-					<div class="pd1 mgb3 mgt3">
+					<div class="pd3">
 						<h2 class="tx-center" style="font-size: 8rem" id="idH2SelectedIcon"></h2>
-						<div class="tx-center">
-							<div class="field">
-								<input id="idSelectedIcon" type="text" readonly />
+						<div class="flex">
+							<div class="col-flex-9">
+								<div class="field field-med field-join-right w100p">
+									<input id="idSelectedIcon" type="text" readonly />
+								</div>
 							</div>
-							<button class="btn" onclick="Copy.id('idSelectedIcon')" data-title="copy to clipboard"><i class="fi-rs-copy"></i> COPY</button>
+							<div class="col-flex-3">
+								<button type="button" class="btn btn-med btn-pri btn-join-left w100p" onclick="Copy.id('idSelectedIcon')" data-title="copy to clipboard"><i class="fi-rs-copy"></i> COPY</button>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -44,11 +48,12 @@ classes.Icons = class {
 								<div class="field">
 									<input id="idSelectedIcon" v-model="selectedIcon" type="text" readonly />
 								</div>
-								<button class="btn" v-on:click="copy()" data-title="copy to clipboard"><i class="fi-rs-copy"></i> COPY</button>
+								<button type="button" class="btn" v-on:click="copy()" data-title="copy to clipboard"><i class="fi-rs-copy"></i> COPY</button>
 							</div>
 						</div>
 						<div class="col-flex-3">
 							<div class="field w100p mgt3 mgb3">
+								<label value="label">FIND ICON</label>
 								<input v-model="searchQuery" type="search" placeholder="find icons" />
 							</div>
 						</div>
@@ -1231,7 +1236,7 @@ classes.Icons = class {
 				show: function(icon) {
 
 					this.page.modalCopy.open();
-					this.page.modalCopy.setTitle(icon);
+					this.page.modalCopy.setTitle('ICON: '+icon);
 
 					idSelectedIcon.value = '<i class="'+icon+'"></i>';
 					idH2SelectedIcon.innerHTML = '<i class="'+icon+'"></i>';
