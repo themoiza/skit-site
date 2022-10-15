@@ -33,6 +33,13 @@
 				<a target="_blank" rel="no-follow" href="https://discord.gg/KSejmc7c"><i class="fi fi-brands-discord"></i><span class="no-mob"> DISCORD</span></a>
 				<a target="_blank" rel="no-follow" href="https://www.instagram.com/skit.network/"><i class="fi fi-brands-instagram"></i><span class="no-mob"> INSTAGRAM</span></a>
 				<a target="_blank" rel="no-follow" href="https://github.com/themoiza/skit/"><i class="fi fi-brands-github"></i><span class="no-mob"> CONTRIBUTE</span></a>
+				<div class="field">
+					<select data-skit-listen="darkmode" onchange="Darkmode.config(this.value)">
+						<option value="1">Dark Mode</option>
+						<option value="2">Light Mode</option>
+						<option value="3">System</option>
+					</select>
+				</div>
 			</nav>
 		</header>
 		<div id="app"></div>
@@ -40,23 +47,6 @@
 		<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
 		<script src="/js/menu.js"></script>
 		<script>
-
-			window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
-				var mode = e.matches ? Darkmode(true) : Darkmode(false);
-			});
-
-			window.Darkmode = (t) => {
-
-				if(t){
-					document.body.classList.add('DarkMode');
-					document.body.classList.remove('LightMode');
-				}else{
-					document.body.classList.remove('DarkMode');
-					document.body.classList.add('LightMode');
-				}
-			};
-
-			Darkmode(true);
 
 			window.ToogleDisabled = (id) => {
 

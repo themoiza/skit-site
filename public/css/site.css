@@ -171,7 +171,6 @@ header a{
 	flex-wrap: wrap;
 	margin: auto;
 	width: 100%;
-	max-width: 70rem;
 	gap: 2rem;
 	padding: 1rem 0;
 }
