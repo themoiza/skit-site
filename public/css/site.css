@@ -198,13 +198,19 @@ section{
 }
 
 .menu{
-	border-right: 1px solid rgba(0,0,0,0.1);
-	height: calc(100vh - 4rem);
+	border-right: 1px solid hsl(var(--foreground-hue) var(--foreground-sat) var(--foreground-lig-soft));;
 	top: 4rem;
+	bottom: 0;
 	position: fixed;
-	overflow-y: auto;
+	overflow-y: hidden;
+	padding-right: 10px;
 	width: 220px;
+	padding-top: 2rem;
 	padding-bottom: 2rem;
+}
+
+.menu:hover{
+	overflow-y: auto;
 }
 
 .menu .title{

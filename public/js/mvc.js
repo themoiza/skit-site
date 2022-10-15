@@ -21,6 +21,17 @@ class Mvc{
 		return Math.random().toString(36).substring(2);
 	}
 
+	_scrollToElementByHash(){
+
+		if(window.location.hash && document.getElementById(window.location.hash.replace('#', ''))){
+
+			document.getElementById(window.location.hash.replace('#', '')).scrollIntoView();
+		}else{
+
+			document.body.scrollIntoView();
+		}
+	}
+
 	verifyAuth(){
 
 		return false;
@@ -170,6 +181,8 @@ class Mvc{
 
 				currentPage = dynamicClass;
 			}
+
+			this._scrollToElementByHash();
 		}
 	}
 
