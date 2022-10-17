@@ -150,6 +150,37 @@ p{
 	font-size: 1rem;
 }
 
+.version{
+	font-size: 0.8rem;
+	border: 1px solid hsl(var(--foreground-hue), var(--foreground-sat), var(--foreground-lig-soft));
+	border-radius: var(--rd);
+	display: inline-block;
+	padding: var(--pd);
+}
+
+.donates{
+	display: block;
+	margin: auto;
+	width: 38rem;
+	max-width: calc(100vw - 4rem);
+}
+
+.donates img{
+	height: 5rem;
+}
+
+.donate{
+	padding: calc(var(--pd) * 3);
+	border-radius: var(--rd);
+	border: 1px solid hsl(var(--foreground-hue), var(--foreground-sat), var(--foreground-lig-soft));
+	margin-bottom: calc(var(--pd) * 3);
+}
+
+.donate .Title{
+	font-size: 5rem;
+	text-align: center;
+}
+
 header{
 	background-color: hsl(var(--background-hue), var(--background-sat), var(--background-lig-soft));
 	display: block;

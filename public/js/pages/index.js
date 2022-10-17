@@ -15,6 +15,7 @@ classes.Index = class {
 				<p><img class="preview" alt="skit" src="assets/skit.png" /></p>
 				<h1>SKIT</h1>
 				<p>SKIT is an advanced front-end for web software development.</p>
+				<div class="version">v0.1.0-alpha</div>
 			</section>
 			<section>
 				<div class="flex">
