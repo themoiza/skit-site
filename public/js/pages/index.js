@@ -18,8 +18,8 @@ classes.Index = class {
 				<div class="version">v0.1.0-alpha</div>
 			</section>
 			<section>
-				<div class="flex">
-					<div class="col-flex-6">
+				<div class="Flex">
+					<div class="ColFlex6">
 						<div class="pdr2">
 							<h2>Use Skit Dist</h2>
 							<div class="field w100p">
@@ -36,17 +36,17 @@ classes.Index = class {
 							</div>
 						</div>
 					</div>
-					<div class="col-flex-6">
+					<div class="ColFlex6">
 						<div class="pdl2">
 							<h2>Clone</h2>
-							<div class="flex">
-								<div class="col-flex-9">
+							<div class="Flex">
+								<div class="ColFlex9">
 									<div class="field w100p">
 										<input type="text" aria-label="git clone" readonly value="git clone git@github.com:themoiza/skit.git" />
 									</div>
 								</div>
-								<div class="col-flex-3">
-									<button class="btn btn-pri w100p">COPY</button>
+								<div class="ColFlex3">
+									<button class="Btn BtnPri w100p">COPY</button>
 								</div>
 							</div>
 						</div>
