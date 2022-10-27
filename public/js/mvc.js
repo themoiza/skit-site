@@ -420,7 +420,8 @@ class Router{
 			'docs': 'Docs::/js/pages/docs.js',
 			'donate': 'Donate::/js/pages/donate.js',
 			'icons': 'Icons::/js/pages/icons.js',
-			'modalcomp': 'Modalcomp::/js/pages/modalcomp.js'
+			'modalcomp': 'Modalcomp::/js/pages/modalcomp.js',
+			'superselect': 'Superselect::/js/pages/superselect.js'
 		};
 
 		routers['auth'] = {};

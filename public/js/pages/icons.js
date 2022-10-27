@@ -85,7 +85,7 @@ classes.Icons = class {
 				page: this,
 				searchQuery: '',
 				selectedIcon: '',
-				sr: [
+				rs: [
 					'fi-rs-a',
 					'fi-rs-ad',
 					'fi-rs-add-document',
@@ -2329,7 +2329,7 @@ classes.Icons = class {
 					'fi-rr-zoom-in',
 					'fi-rr-zoom-out'
 				],
-				rs: [
+				sr: [
 					'fi-sr-a',
 					'fi-sr-ad',
 					'fi-sr-add-document',

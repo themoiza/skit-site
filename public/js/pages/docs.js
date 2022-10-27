@@ -32,17 +32,17 @@ classes.Docs = class {
 					<div class="Flex">
 						<div class="ColFlex280px pdt2 pdb2" id="menuCheckbox">
 							<div class="field">
-								<input type="checkbox" id="checkbox1" name="" value="" checked="checked" /><label for="checkbox1">Check 1</label>
+								<input type="checkbox" class="Checkbox" id="checkbox1" name="" value="" checked="checked" /><label for="checkbox1">Check 1</label>
 							</div>
 							<div class="field">
-								<input type="checkbox" id="checkbox2" name="" value="" /><label for="checkbox2">Check 2</label>
+								<input type="checkbox" class="Checkbox" id="checkbox2" name="" value="" /><label for="checkbox2">Check 2</label>
 							</div>
 							<div class="field">
-								<input type="checkbox" id="checkbox3" name="" value="" indeterminate="indeterminate" /><label for="checkbox3">Indeterminate</label>
+								<input type="checkbox" class="Checkbox" id="checkbox3" name="" value="" indeterminate="indeterminate" /><label for="checkbox3">Indeterminate</label>
 								<script>checkbox3.indeterminate = true;</script>
 							</div>
 							<div class="field">
-								<input type="checkbox" id="checkbox4" name="" value="" disabled="disabled" /><label for="checkbox4">disabled</label>
+								<input type="checkbox" class="Checkbox" id="checkbox4" name="" value="" disabled="disabled" /><label for="checkbox4">disabled</label>
 							</div>
 						</div>
 						<div class="ColFlexCalc280 pdt2 pdb2 pdl2">
@@ -260,13 +260,13 @@ classes.Docs = class {
 						<hr class="ColFlex" />
 						<div class="ColFlex280px pdt2 pdb2" id="menuInputRadio">
 							<div class="field">
-								<input type="radio" id="radio1" name="radio1" /><label for="radio1">On</label>
+								<input type="radio" class="Radio" id="radio1" name="radio1" /><label for="radio1">On</label>
 							</div>
 							<div class="field">
-								<input type="radio" id="radio2" name="radio1" /><label for="radio2">Off</label>
+								<input type="radio" class="Radio" id="radio2" name="radio1" /><label for="radio2">Off</label>
 							</div>
 							<div class="field">
-								<input type="radio" id="radio3" name="radio1" disabled="disabled" /><label for="radio3">disabled</label>
+								<input type="radio" class="Radio" id="radio3" name="radio1" disabled="disabled" /><label for="radio3">disabled</label>
 							</div>
 						</div>
 						<div class="ColFlexCalc280 pdt2 pdb2 pdl2">

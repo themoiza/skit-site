@@ -31,8 +31,8 @@ classes.Modalcomp = class {
 						</div>
 						<div class="ModalContent">
 							<div class="pd1">
-								<img src="assets/skit.png" alt="skit" class="w100p" />
-								<button onclick="pages.modalcomp.modalTwo.open()" class="Btn BtnPri">OPEN MODAL 2 <i class="fi-rs-sign-in-alt"></i></button> 
+								<div><img src="assets/skit.png" alt="skit" class="w200" /></div>
+								<p><button onclick="pages.modalcomp.modalTwo.open()" class="Btn BtnPri">OPEN MODAL 2 <i class="fi-rs-sign-in-alt"></i></button></p>
 							</div>
 						</div>
 					</dialog>
