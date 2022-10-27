@@ -520,7 +520,7 @@ classes.Docs = class {
 							<p class="mgb2"><b>Toggle</b></p>
 							<div class="field">
 								<div class="toggle">
-									<input data-skit-listen="darkmode" onchange="Darkmode.set(this.checked)" id="toggle1" type="checkbox" name="" value="" />
+									<input type="checkbox" class="Checkbox" data-skit-listen="darkmode" onchange="Darkmode.set(this.checked)" id="toggle1" name="" value="" />
 									<label for="toggle1">Dark mode</label>
 								</div>
 							</div>
