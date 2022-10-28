@@ -421,6 +421,7 @@ class Router{
 			'donate': 'Donate::/js/pages/donate.js',
 			'icons': 'Icons::/js/pages/icons.js',
 			'modalcomp': 'Modalcomp::/js/pages/modalcomp.js',
+			'lockscreen': 'LockScreenComp::/js/pages/lockscreencomp.js',
 			'superselect': 'Superselect::/js/pages/superselect.js'
 		};
 
