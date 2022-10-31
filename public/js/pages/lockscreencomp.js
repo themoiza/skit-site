@@ -17,7 +17,36 @@ classes.LockScreenComp = class {
 				</div>
 				<div class="ColFlexCalc220 pd2" id="idIcons">
 					<h1>Lock Screen</h1>
-					<button type="button" class="Btn BtnDanger" onclick="LockScreen.lock({'timeout': 15000})"><i class="fi-rs-lock"></i> LOCK</button>
+					<div>
+						<div class="Card w300">
+							<div class="pd2">
+								<div class="mgb2">
+									<div class="field w100p">
+										<label>TITLE</label>
+										<input id="idLockScreenTitle" type="text" placeholder="title" />
+									</div>
+								</div>
+								<div class="mgb2">
+									<div class="field w100p">
+										<label>TIME OUT IN MS</label>
+										<input id="idLockScreenTimeOut" type="number" min="100" step="1" value="10000" max="9999999999" placeholder="ms" />
+									</div>
+								</div>
+								<div class="mgb2">
+									<div class="field w100p">
+										<label>BODY BLUR</label>
+									</div>
+									<div class="field">
+										<input type="radio" class="Radio" id="idtimeoutblur0" name="timeoutblur" /><label for="idtimeoutblur0">Blur true</label>
+									</div>
+									<div class="field">
+										<input type="radio" checked class="Radio" id="idtimeoutblur1" name="timeoutblur" /><label for="idtimeoutblur1">Blur false</label>
+									</div>
+								</div>
+								<button type="button" class="Btn BtnDanger w100p" onclick="pages.lockscreencomp.lockScreen()"><i class="fi-rs-lock"></i> LOCK</button>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>`;
 	}
@@ -30,8 +59,14 @@ classes.LockScreenComp = class {
 		var page = this.content();
 
 		el.innerHTML = page;
+	}
 
-		this.modalOne = new Modal('modal1');
-		this.modalTwo = new Modal('modal2');
+	lockScreen(){
+
+		LockScreen.lock({
+			'timeout': idLockScreenTimeOut.value ?? false,
+			'title': idLockScreenTitle.value ?? false,
+			'blur': idtimeoutblur0.checked ?? false
+		});
 	}
 }
