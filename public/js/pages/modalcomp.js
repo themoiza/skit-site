@@ -9,6 +9,9 @@ classes.Modalcomp = class {
 
 		this.modalOne;
 		this.modalTwo;
+
+		this.app.updateTitle(this.title);
+		this.app.updateDescription(this.description);
 	}
 
 	content(){
@@ -27,7 +30,7 @@ classes.Modalcomp = class {
 					<dialog id="modal1" class="Modal">
 						<div class="TopBar">
 							<div class="Move">MODAL 1</div>
-							<div class="Close"><button data-skit="close">⨉</button></div>
+							<div class="Close"><button data-skit="close"></button></div>
 						</div>
 						<div class="ModalContent">
 							<div class="pd1">
@@ -39,7 +42,7 @@ classes.Modalcomp = class {
 					<dialog id="modal2" class="Modal w700">
 						<div class="TopBar">
 							<div class="Move">MODAL 2</div>
-							<div class="Close"><button data-skit="close">⨉</button></div>
+							<div class="Close"><button data-skit="close"></button></div>
 						</div>
 						<div class="ModalContent">
 							<div class="pd1">
@@ -53,9 +56,6 @@ classes.Modalcomp = class {
 	}
 
 	render(el){
-
-		document.title = this.title;
-		document.description = this.description;
 
 		var page = this.content();
 

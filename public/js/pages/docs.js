@@ -6,6 +6,9 @@ classes.Docs = class {
 
 		this.title = 'Docs';
 		this.description = 'Docs';
+
+		this.app.updateTitle(this.title);
+		this.app.updateDescription(this.description);
 	}
 
 	content(){
@@ -758,9 +761,6 @@ Exorcizamus&nbsp;te,&nbsp;omnis&nbsp;immundus&nbsp;spiritus,&nbsp;omnis&nbsp;sat
 	}
 
 	render(el){
-
-		document.title = this.title;
-		document.description = this.description;
 
 		var page = this.content();
 

@@ -6,6 +6,9 @@ classes.Index = class {
 
 		this.title = 'Skit';
 		this.description = 'Skit';
+
+		this.app.updateTitle(this.title);
+		this.app.updateDescription(this.description);
 	}
 
 	content(){
@@ -56,9 +59,6 @@ classes.Index = class {
 	}
 
 	render(el){
-
-        document.title = this.title;
-        document.description = this.description;
 
 		var page = this.content();
 

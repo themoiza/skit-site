@@ -4,8 +4,11 @@ classes.Superselect = class {
 
 		this.app = app;
 
-		this.title = 'Donate';
-		this.description = 'Donate';
+		this.title = 'Super Select';
+		this.description = 'Super Select';
+
+		this.app.updateTitle(this.title);
+		this.app.updateDescription(this.description);
 	}
 
 	content(){
@@ -67,9 +70,6 @@ classes.Superselect = class {
 
 	render(el){
 
-		document.title = this.title;
-		document.description = this.description;
-
 		var page = this.content();
 
 		el.innerHTML = page;
@@ -77,6 +77,7 @@ classes.Superselect = class {
 		window.s1 = new Superselect('idSuperSelect', {
 			name: 'state0',
 			none: 'NENHUM',
+			search: false,
 			list: [
 				{'value': '', 'label': 'NENHUM'},
 				{'value': 0, 'label': 'EXTERIOR'},

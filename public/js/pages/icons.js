@@ -10,6 +10,9 @@ classes.Icons = class {
 		this.modalCopy;
 
 		this.vueIcons;
+
+		this.app.updateTitle(this.title);
+		this.app.updateDescription(this.description);
 	}
 
 	content(){
@@ -18,7 +21,7 @@ classes.Icons = class {
 			<dialog id="idModalCopy" class="Modal" style="width: 40rem;">
 				<div class="TopBar">
 					<div class="Move">VIEW ICON</div>
-					<div class="Close"><button data-skit="close">⨉</button></div>
+					<div class="Close"><button data-skit="close"></button></div>
 				</div>
 				<div class="ModalContent">
 					<div class="pd3">
@@ -69,9 +72,6 @@ classes.Icons = class {
 	}
 
 	render(el){
-
-		document.title = this.title;
-		document.description = this.description;
 
 		var page = this.content();
 

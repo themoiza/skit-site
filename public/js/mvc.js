@@ -3,6 +3,7 @@ window.currentPage = '/';
 window.classes = new Object;
 window.listenPopEvent = null;
 window.popStateScroll = {};
+window.appName = 'SKIT';
 
 class Mvc{
 
@@ -14,6 +15,8 @@ class Mvc{
 		this.pushHistory.init(this);
 
 		window.screenId = this._randId();
+
+		document.querySelector('meta[property="og:url"]').setAttribute('content', window.location.href);
 	}
 
 	_randId(){
@@ -203,6 +206,18 @@ class Mvc{
 	addPopListener(obj){
 
 		listenPopEvent = obj;
+	}
+
+	updateTitle(t){
+
+		document.title = t+` - `+appName;
+		document.querySelector('meta[property="og:title"]').setAttribute('content', t);
+	}
+
+	updateDescription(d){
+
+		document.querySelector('meta[name="description"]').setAttribute('content', d);
+		document.querySelector('meta[property="og:description"]').setAttribute('content', d);
 	}
 }
 

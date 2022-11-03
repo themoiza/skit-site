@@ -6,6 +6,9 @@ classes.Donate = class {
 
 		this.title = 'Donate';
 		this.description = 'Donate';
+
+		this.app.updateTitle(this.title);
+		this.app.updateDescription(this.description);
 	}
 
 	content(){
@@ -92,9 +95,6 @@ classes.Donate = class {
 	}
 
 	render(el){
-
-        document.title = this.title;
-        document.description = this.description;
 
 		var page = this.content();
 

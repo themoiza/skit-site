@@ -59,7 +59,7 @@
 }
 
 * {
-	scrollbar-width: thin;
+	scrollbar-width: 0.5rem;
 	scrollbar-color: hsl(var(--foreground-hue), var(--foreground-sat), 50%) transparent;
 }
 
@@ -77,13 +77,13 @@
 }
 
 ::-webkit-scrollbar-track-piece {
-	background-color: hsl(var(--foreground-hue), var(--foreground-sat), 20%);
+	background-color: transparent;
 }
 
 *::-webkit-scrollbar-thumb {
 	background-color: hsl(var(--foreground-hue), var(--foreground-sat), 50%);
 	border: none;
-	border-radius: 0;
+	border-radius: var(--rd);
 }
 
 *::-webkit-scrollbar-corner {
