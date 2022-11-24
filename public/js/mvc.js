@@ -130,6 +130,8 @@ class Mvc{
 
 		var jsClass = this.router.getRouterController(controller);
 
+		StateLoading.setPercentage(1);
+
 		// LOAD SCRIPT
 		if(typeof(window.classes[jsClass.class]) === 'undefined' && typeof(loadScript) === 'undefined' && jsClass.js !== false){
 
@@ -137,6 +139,8 @@ class Mvc{
 			spt.setAttribute('src', jsClass.js+'?temp='+Math.random());
 			spt.addEventListener('load', () => {
 				this.loadPage(controller, true);
+
+					StateLoading.setPercentage(100);
 			});
 			document.body.appendChild(spt);
 
@@ -186,6 +190,8 @@ class Mvc{
 			}
 
 			this._scrollToElementByHash();
+
+			StateLoading.setPercentage(100);
 		}
 	}
 
@@ -435,7 +441,9 @@ class Router{
 			'docs': 'Docs::/js/pages/docs.js',
 			'donate': 'Donate::/js/pages/donate.js',
 			'icons': 'Icons::/js/pages/icons.js',
+			'confirmcomp': 'ConfirmComp::/js/pages/confirmcomp.js',
 			'modalcomp': 'Modalcomp::/js/pages/modalcomp.js',
+			'paniccomp': 'Paniccomp::/js/pages/paniccomp.js',
 			'lockscreen': 'LockScreenComp::/js/pages/lockscreencomp.js',
 			'superselect': 'Superselect::/js/pages/superselect.js'
 		};

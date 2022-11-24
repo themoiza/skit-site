@@ -32,11 +32,12 @@ window.menu = `
 	</div>
 	<button onclick="submenu3.classList.toggle('active')" class="title"><i class="fi-rs-drafting-compass"></i> JS COMPONENTS</button>
 	<div id="submenu3" class="submenu active">
-		<div><a href="/docs#menuJsConfirm">Confirm</a></div>
+		<div><a href="/confirmcomp">Confirm</a></div>
 		<div><a href="/docs#menuJsCopy">Copy</a></div>
 		<div><a href="/docs#menuJsDebounce">Debounce</a></div>
 		<div><a href="/lockscreen">LockScreen</a></div>
 		<div><a href="/modalcomp">Modal</a></div>
+		<div><a href="/paniccomp">Panic</a></div>
 		<div><a href="/superselect">Super Select</a></div>
 		<div><a href="/docs#menuJsTab">Tab</a></div>
 		<div><a href="/docs#menuJsTooltip">Tooltip</a></div>

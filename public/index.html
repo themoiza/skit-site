@@ -22,15 +22,31 @@
 		<link rel="stylesheet" async href="https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css">
 		<link rel="stylesheet" async href="https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css">
 		<link rel="stylesheet" async href="https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css">
+		<style>
+			.LoadLockScreen{
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				position: fixed;
+				z-index: 9999;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				background-color: #FFF;
+			}
+		</style>
 	</head>
 	<body>
+		<div class="LoadLockScreen" id="idLoadLockScreen">Loading...</div>
+		<div class="StateLoading" id="idStateLoading"></div>
 		<header>
 			<nav class="nav pdl1 pdr1">
 				<a href="/" data-title="Home"><img class="preview" alt="skit" src="assets/skit.png" /></a>
 				<a href="/" data-title="Start">START</a>
 				<a href="/docs" data-title="Documentation"><i class="fi fi-rs-document-signed"></i><span class="NoMob"> DOCS</span></a>
 				<a href="/donate" data-title="Donate"><i class="fi fi-rs-usd-circle"></i><span class="NoMob"> DONATE</span></a>
-				<a target="_blank" rel="no-follow" href="https://discord.gg/KSejmc7c"><i class="fi fi-brands-discord"></i><span class="NoMob"> DISCORD</span></a>
+				<a target="_blank" rel="no-follow" href="https://discord.com/channels/973324521987792916/973324521987792918"><i class="fi fi-brands-discord"></i><span class="NoMob"> DISCORD</span></a>
 				<a target="_blank" rel="no-follow" href="https://www.instagram.com/skit.network/"><i class="fi fi-brands-instagram"></i><span class="NoMob"> INSTAGRAM</span></a>
 				<a target="_blank" rel="no-follow" href="https://github.com/themoiza/skit/"><i class="fi fi-brands-github"></i><span class="NoMob"> CONTRIBUTE</span></a>
 				<div class="field">
@@ -43,10 +59,23 @@
 			</nav>
 		</header>
 		<div id="app"></div>
+		<script>
+			const SkitConfig = {
+				'LoadLockScreen': {
+					'allow': false
+				}
+			};
+		</script>
 		<script src="assets/skit-dist/skit.js"></script>
 		<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
 		<script src="/js/menu.js"></script>
 		<script>
+
+			window.SkitConfig = {
+				'LoadLockScreen': {
+					'allow': false
+				}
+			};
 
 			window.ToogleDisabled = (id) => {
 
