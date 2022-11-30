@@ -37,6 +37,7 @@ window.menu = `
 		<div><a href="/docs#menuJsDebounce">Debounce</a></div>
 		<div><a href="/lockscreen">LockScreen</a></div>
 		<div><a href="/modalcomp">Modal</a></div>
+		<div><a href="/pagination">Pagination</a></div>
 		<div><a href="/paniccomp">Panic</a></div>
 		<div><a href="/superselect">Super Select</a></div>
 		<div><a href="/docs#menuJsTab">Tab</a></div>
@@ -45,6 +46,6 @@ window.menu = `
 	</div>
 	<button onclick="submenu4.classList.toggle('active')" class="title"><i class="fi-rs-mobile-button"></i> BUTTONS</button>
 	<div id="submenu4" class="submenu active">
-		<div><a href="/docs#menuButtons">Buttons</a></div>
+		<div><a href="/buttons">Buttons</a></div>
 	</div>
 </nav>`;

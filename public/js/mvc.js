@@ -276,7 +276,11 @@ class Page500{
 
 	page(){
 
-		return `500`;
+		return `<div class="Flex">
+			<div class="ColFlex">
+				<h1 class="TxCenter">Error 500</h1>
+			</div>
+		</div>`;
 	}
 
 	render(el){
@@ -438,11 +442,13 @@ class Router{
 
 		routers['noAuth'] = {
 			'/': 'Index::/js/pages/index.js',
+			'buttons': 'Buttons::/js/pages/buttons.js',
 			'docs': 'Docs::/js/pages/docs.js',
 			'donate': 'Donate::/js/pages/donate.js',
 			'icons': 'Icons::/js/pages/icons.js',
 			'confirmcomp': 'ConfirmComp::/js/pages/confirmcomp.js',
 			'modalcomp': 'Modalcomp::/js/pages/modalcomp.js',
+			'pagination': 'PaginationPage::/js/pages/pagination.js',
 			'paniccomp': 'Paniccomp::/js/pages/paniccomp.js',
 			'lockscreen': 'LockScreenComp::/js/pages/lockscreencomp.js',
 			'superselect': 'Superselect::/js/pages/superselect.js'
