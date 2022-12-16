@@ -561,8 +561,8 @@ classes.Docs = class {
 									'message': 'You can do it?',
 									'ok': 'YES',
 									'no': 'NO',
-									'okclass': 'Btn BtnDanger BtnMed',
-									'noclass': 'Btn BtnLight BtnMed',
+									'okClass': 'Btn BtnDanger BtnMed',
+									'noClass': 'Btn BtnLight BtnMed',
 									'okFn': () => {console.log('ok')},
 									'noFn': () => {console.log('no')},
 									'cancelFn': () => {console.log('ignore')}
@@ -616,7 +616,7 @@ classes.Docs = class {
 								<div class="TabsArea" id="area1">
 									<div data-tab="tab1">
 										<div class="pd1">
-											<table>
+											<table class="Table">
 												<thead>
 													<tr>
 														<th class="TxLeft">COL 1 <i class="fi fi-rs-arrows-alt-v"></i></th>

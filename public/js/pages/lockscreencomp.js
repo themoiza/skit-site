@@ -75,7 +75,7 @@ classes.LockScreenComp = class {
 						<div class="ColFlexCalc280 pdt2 pdb2 pdl2">
 							<h2>LockScreen.lock(<i>object</i>)</h2>
 							<p><i class="fi-rs-undo-alt"></i> Return: void</p>
-							<table>
+							<table class="Table">
 								<thead>
 									<tr>
 										<th class="TxLeft"><i class="fi-rs-list"></i> PARAM / TYPE</th>
@@ -107,7 +107,7 @@ classes.LockScreenComp = class {
 							</table>
 							<h2>LockScreen.unlock()</h2>
 							<p><i class="fi-rs-undo-alt"></i> Return: void</p>
-							<table>
+							<table class="Table">
 								<thead>
 									<tr>
 										<th class="TxLeft"><i class="fi-rs-list"></i> PARAM / TYPE</th>

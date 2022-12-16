@@ -63,7 +63,7 @@ classes.ConfirmComp = class {
 						</div>
 						<div class="ColFlexCalc280 pdt2 pdb2 pdl2">
 							<h2>Confirm(<i>object</i>)</h2>
-							<table>
+							<table class="Table">
 								<thead>
 									<tr>
 										<th class="TxLeft"><i class="fi-rs-list"></i> PARAM | TYPE</th>
