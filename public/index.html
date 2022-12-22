@@ -59,56 +59,38 @@
 		</header>
 		<div id="app"></div>
 		<script>
-			const SkitConfig = {
-				'LoadLockScreen': {
-					'allow': false
-				}
-			};
-		</script>
-		<script src="assets/skit-dist/skit.js"></script>
-		<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
-		<script src="/js/menu.js"></script>
-		<script>
-
 			window.SkitConfig = {
 				'LoadLockScreen': {
-					'allow': false
+					'allow': true
+				},
+				'MVC': {
+					'allow': true,
+					'id': 'app',
+					'appName': 'SKIT',
+					'routes': {
+						'auth': {},
+						'noAuth': {
+							'/': 'Index::/js/pages/index.js',
+							'buttons': 'Buttons::/js/pages/buttons.js',
+							'docs': 'Docs::/js/pages/docs.js',
+							'donate': 'Donate::/js/pages/donate.js',
+							'icons': 'Icons::/js/pages/icons.js',
+							'confirmcomp': 'ConfirmComp::/js/pages/confirmcomp.js',
+							'modalcomp': 'Modalcomp::/js/pages/modalcomp.js',
+							'pagination': 'PaginationPage::/js/pages/pagination.js',
+							'paniccomp': 'Paniccomp::/js/pages/paniccomp.js',
+							'lockscreen': 'LockScreenComp::/js/pages/lockscreencomp.js',
+							'superselect': 'Superselect::/js/pages/superselect.js',
+							'warning-comp': 'WarningComp::/js/pages/warningcomp.js'
+						}
+					}
 				}
-			};
-
-			window.ToogleDisabled = (id) => {
-
-				var f = document.getElementById(id);
-
-				if(f.getAttribute('disabled')){
-					f.removeAttribute('disabled', 'disabled');
-					f.parentElement.classList.remove('disabled');
-				}else{
-					f.setAttribute('disabled', 'disabled');
-					f.parentElement.classList.add('disabled');
-				}
-			};
-
-			window.TooglerReadonly = (id) => {
-
-				var f = document.getElementById(id);
-
-				if(f.getAttribute('readonly')){
-					f.removeAttribute('readonly', 'readonly');
-					f.parentElement.classList.remove('readonly');
-				}else{
-					f.setAttribute('readonly', 'readonly');
-					f.parentElement.classList.add('readonly');
-				}
-			};
-
-			window.startMVC = () => {
-
-				window.mvc = new Mvc();
-				mvc.init('app');
 			};
 		</script>
+		<script src="assets/skit-dist/skit.js" onload="startMVC()"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
+		<script src="/js/menu.js"></script>
+		<script src="/js/site.js"></script>
 		<script src="/js/vue.min.js"></script>
-		<script src="/js/mvc.js" onload="startMVC()"></script>
 	</body>
 </html>

@@ -42,7 +42,7 @@ window.menu = `
 		<div><a href="/superselect">Super Select</a></div>
 		<div><a href="/docs#menuJsTab">Tab</a></div>
 		<div><a href="/docs#menuJsTooltip">Tooltip</a></div>
-		<div><a href="/docs#menuJsWarning">Warning (Toasts)</a></div>
+		<div><a href="/warning-comp">Warning (Toasts)</a></div>
 	</div>
 	<button onclick="submenu4.classList.toggle('active')" class="title"><i class="fi-rs-mobile-button"></i> BUTTONS</button>
 	<div id="submenu4" class="submenu active">
