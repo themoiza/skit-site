@@ -35,7 +35,7 @@ classes.Modalcomp = class {
 						<div class="ModalContent">
 							<div class="pd1">
 								<div><img src="assets/skit.png" alt="skit" class="w200" /></div>
-								<p><button onclick="pages.modalcomp.modalTwo.open()" class="Btn BtnPri">OPEN MODAL 2 <i class="fi-rs-sign-in-alt"></i></button></p>
+								<p><button onclick="pages.modalcomp.modalTwo.open()" class="Btn BtnPri">OPEN MODAL 2 <i class="fi fi-rr-sign-in-alt"></i></button></p>
 							</div>
 						</div>
 					</dialog>
@@ -47,7 +47,7 @@ classes.Modalcomp = class {
 						<div class="ModalContent">
 							<div class="pd1">
 								<p>Exorcizamus te, omnis immundus spiritus, omnis satanica potestas, omnis incursio infernalis adversarii, omnis legio, omnis congregatio et secta diabolica... Ergo, draco maledicte et omnis legio diabolica, adjuramus te ... cessa decipere humanas creaturas, eisque æternæ perditionìs venenum propinare...</p>
-								<button onclick="pages.modalcomp.modalOne.open()" class="Btn BtnPri">OPEN MODAL 1 <i class="fi-rs-sign-in-alt"></i></button> 
+								<button onclick="pages.modalcomp.modalOne.open()" class="Btn BtnPri">OPEN MODAL 1 <i class="fi fi-rr-sign-in-alt"></i></button> 
 							</div>
 						</div>
 					</dialog>

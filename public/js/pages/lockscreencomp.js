@@ -68,20 +68,20 @@ classes.LockScreenComp = class {
 	'spinner': true
 });</code></pre>
 								<div class="pd2">
-									<p><button type="button" class="Btn BtnDanger w100p" onclick="pages.lockscreencomp.lockScreen()"><i class="fi-rs-lock"></i> LOCK</button></p>
+									<p><button type="button" class="Btn BtnDanger w100p" onclick="pages.lockscreencomp.lockScreen()"><i class="fi fi-rr-lock"></i> LOCK</button></p>
 								</div>
 							</div>
 						</div>
 						<div class="ColFlexCalc280 pdt2 pdb2 pdl2">
 							<h2>LockScreen.lock(<i>object</i>)</h2>
-							<p><i class="fi-rs-undo-alt"></i> Return: void</p>
+							<p><i class="fi fi-rr-undo-alt"></i> Return: void</p>
 							<table class="Table">
 								<thead>
 									<tr>
-										<th class="TxLeft"><i class="fi-rs-list"></i> PARAM / TYPE</th>
-										<th class="TxLeft"><i class="fi-rs-shield-exclamation"></i> REQUIRED</th>
-										<th class="TxLeft"><i class="fi-rs-cursor-text"></i> VALUE</th>
-										<th class="TxLeft"><i class="fi-rs-cursor-text-alt"></i> DEFAULT</th>
+										<th class="TxLeft"><i class="fi fi-rr-list"></i> PARAM / TYPE</th>
+										<th class="TxLeft"><i class="fi fi-rr-shield-exclamation"></i> REQUIRED</th>
+										<th class="TxLeft"><i class="fi fi-rr-cursor-text"></i> VALUE</th>
+										<th class="TxLeft"><i class="fi fi-rr-cursor-text-alt"></i> DEFAULT</th>
 									</tr>
 								</thead>
 								<tbody>
@@ -106,14 +106,14 @@ classes.LockScreenComp = class {
 								</tbody>
 							</table>
 							<h2>LockScreen.unlock()</h2>
-							<p><i class="fi-rs-undo-alt"></i> Return: void</p>
+							<p><i class="fi fi-rr-undo-alt"></i> Return: void</p>
 							<table class="Table">
 								<thead>
 									<tr>
-										<th class="TxLeft"><i class="fi-rs-list"></i> PARAM / TYPE</th>
-										<th class="TxLeft"><i class="fi-rs-shield-exclamation"></i> REQUIRED</th>
-										<th class="TxLeft"><i class="fi-rs-cursor-text"></i> VALUE</th>
-										<th class="TxLeft"><i class="fi-rs-cursor-text-alt"></i> DEFAULT</th>
+										<th class="TxLeft"><i class="fi fi-rr-list"></i> PARAM / TYPE</th>
+										<th class="TxLeft"><i class="fi fi-rr-shield-exclamation"></i> REQUIRED</th>
+										<th class="TxLeft"><i class="fi fi-rr-cursor-text"></i> VALUE</th>
+										<th class="TxLeft"><i class="fi fi-rr-cursor-text-alt"></i> DEFAULT</th>
 									</tr>
 								</thead>
 								<tbody>

@@ -33,7 +33,7 @@ classes.Icons = class {
 								</div>
 							</div>
 							<div class="ColFlex3">
-								<button type="button" class="Btn BtnMed BtnPri BtnJoinLeft w100p" onclick="Copy.id('idSelectedIcon')" data-title="copy to clipboard"><i class="fi-rs-copy"></i> COPY</button>
+								<button type="button" class="Btn BtnMed BtnPri BtnJoinLeft w100p" onclick="Copy.id('idSelectedIcon')" data-title="copy to clipboard"><i class="fi fi-rr-copy"></i> COPY</button>
 							</div>
 						</div>
 					</div>
@@ -51,7 +51,7 @@ classes.Icons = class {
 								<div class="field">
 									<input id="idSelectedIcon" v-model="selectedIcon" type="text" readonly />
 								</div>
-								<button type="button" class="Btn" v-on:click="copy()" data-title="copy to clipboard"><i class="fi-rs-copy"></i> COPY</button>
+								<button type="button" class="Btn" v-on:click="copy()" data-title="copy to clipboard"><i class="fi fi-rr-copy"></i> COPY</button>
 							</div>
 						</div>
 						<div class="ColFlex3">
@@ -218,9 +218,9 @@ classes.Icons = class {
 					'fi-rs-balance-scale-right',
 					'fi-rs-balloons',
 					'fi-rs-ballot',
-					'fi-rs-ban',
-					'fi-rs-band-aid',
-					'fi-rs-bank',
+					'fi fi-rr-ban',
+					'fi fi-rr-band-aid',
+					'fi fi-rr-bank',
 					'fi-rs-barber-shop',
 					'fi-rs-bars-progress',
 					'fi-rs-baseball-alt',
@@ -353,8 +353,8 @@ classes.Icons = class {
 					'fi-rs-chart-tree',
 					'fi-rs-chat-arrow-down',
 					'fi-rs-chat-arrow-grow',
-					'fi-rs-check',
-					'fi-rs-checkbox',
+					'fi fi-rr-check',
+					'fi fi-rr-checkbox',
 					'fi-rs-cheese',
 					'fi-rs-cherry',
 					'fi-rs-chess-bishop',
@@ -474,9 +474,9 @@ classes.Icons = class {
 					'fi-rs-computer',
 					'fi-rs-confetti',
 					'fi-rs-cookie',
-					'fi-rs-copy-alt',
-					'fi-rs-copy',
-					'fi-rs-copyright',
+					'fi fi-rr-copy-alt',
+					'fi fi-rr-copy',
+					'fi fi-rr-copyright',
 					'fi-rs-corn',
 					'fi-rs-cow',
 					'fi-rs-cream',
@@ -493,8 +493,8 @@ classes.Icons = class {
 					'fi-rs-curling',
 					'fi-rs-cursor-finger',
 					'fi-rs-cursor-plus',
-					'fi-rs-cursor-text-alt',
-					'fi-rs-cursor-text',
+					'fi fi-rr-cursor-text-alt',
+					'fi fi-rr-cursor-text',
 					'fi-rs-cursor',
 					'fi-rs-d',
 					'fi-rs-dart',
@@ -754,7 +754,7 @@ classes.Icons = class {
 					'fi-rs-link',
 					'fi-rs-lipstick',
 					'fi-rs-lira-sign',
-					'fi-rs-list-check',
+					'fi fi-rr-list-check',
 					'fi-rs-list',
 					'fi-rs-loading',
 					'fi-rs-location-alt',
@@ -923,7 +923,7 @@ classes.Icons = class {
 					'fi-rs-rhombus',
 					'fi-rs-rings-wedding',
 					'fi-rs-road',
-					'fi-rs-rocket-lunch',
+					'fi fi-rr-rocket-lunch',
 					'fi-rs-rocket',
 					'fi-rs-room-service',
 					'fi-rs-rotate-left',
@@ -969,7 +969,7 @@ classes.Icons = class {
 					'fi-rs-share',
 					'fi-rs-shekel-sign',
 					'fi-rs-shield-check',
-					'fi-rs-shield-exclamation',
+					'fi fi-rr-shield-exclamation',
 					'fi-rs-shield-interrogation',
 					'fi-rs-shield-plus',
 					'fi-rs-shield',
@@ -1155,7 +1155,7 @@ classes.Icons = class {
 					'fi-rs-u',
 					'fi-rs-umbrella',
 					'fi-rs-underline',
-					'fi-rs-undo-alt',
+					'fi fi-rr-undo-alt',
 					'fi-rs-undo',
 					'fi-rs-unlock',
 					'fi-rs-upload',

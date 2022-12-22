@@ -59,7 +59,7 @@ classes.Docs = class {
 &lt;input&nbsp;type=&quot;checkbox&quot;&nbsp;id=&quot;checkbox3&quot;&nbsp;name=&quot;&quot;&nbsp;value=&quot;&quot;&nbsp;disabled=&quot;disabled&quot;&nbsp;/&gt;&lt;label&nbsp;for=&quot;checkbox3&quot;&gt;disabled&lt;/label&gt;
 &lt;/div&gt;</code></pre>
 							<p>
-								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.id('checkboxSource')" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rs-copy"></i> COPY</button>
+								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.id('checkboxSource')" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rr-copy"></i> COPY</button>
 							</p>
 						</div>
 						<hr class="ColFlex" />
@@ -78,7 +78,7 @@ classes.Docs = class {
 &lt;input&nbsp;type=&quot;color&quot;&nbsp;name=&quot;&quot;&nbsp;value=&quot;#777777&quot;&nbsp;/&gt;
 &lt;/div&gt;</code></pre>
 							<p>
-								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.id('colorSource')" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rs-copy"></i> COPY</button>
+								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.id('colorSource')" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rr-copy"></i> COPY</button>
 							</p>
 						</div>
 						<hr class="ColFlex" />
@@ -112,7 +112,7 @@ classes.Docs = class {
 &lt;/datalist&gt;
 &lt;/div&gt;</code></pre>
 							<p>
-								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.id('datalistSource')" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rs-copy"></i> COPY</button>
+								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.id('datalistSource')" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rr-copy"></i> COPY</button>
 							</p>
 						</div>
 						<hr class="ColFlex" />
@@ -132,7 +132,7 @@ classes.Docs = class {
 &lt;input&nbsp;type=&quot;date&quot;&nbsp;name=&quot;&quot;&nbsp;value=&quot;&quot;&nbsp;/&gt;
 &lt;/div&gt;</code></pre>
 							<p>
-								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.id('dateSource')" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rs-copy"></i> COPY</button>
+								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.id('dateSource')" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rr-copy"></i> COPY</button>
 							</p>
 						</div>
 						<hr class="ColFlex" />
@@ -152,7 +152,7 @@ classes.Docs = class {
 &lt;input&nbsp;type=&quot;datetime&#45;local&quot;&nbsp;name=&quot;&quot;&nbsp;value=&quot;&quot;&nbsp;/&gt;
 &lt;/div&gt;</code></pre>
 							<p>
-								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.id('datelocalSource')" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rs-copy"></i> COPY</button>
+								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.id('datelocalSource')" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rr-copy"></i> COPY</button>
 							</p>
 						</div>
 						<hr class="ColFlex" />
@@ -172,7 +172,7 @@ classes.Docs = class {
 &lt;input&nbsp;type=&quot;email&quot;&nbsp;name=&quot;&quot;&nbsp;value=&quot;&quot;&nbsp;placeholder=&quot;e&#45;mail&quot;&nbsp;/&gt;
 &lt;/div&gt;</code></pre>
 							<p>
-								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.id('emailSource')" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rs-copy"></i> COPY</button>
+								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.id('emailSource')" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rr-copy"></i> COPY</button>
 							</p>
 						</div>
 						<hr class="ColFlex" />
@@ -191,7 +191,7 @@ classes.Docs = class {
 &lt;input&nbsp;type=&quot;file&quot;&nbsp;name=&quot;&quot;&nbsp;/&gt;
 &lt;/div&gt;</code></pre>
 							<p>
-								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.id('fileSource')" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rs-copy"></i> COPY</button>
+								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.id('fileSource')" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rr-copy"></i> COPY</button>
 							</p>
 						</div>
 
@@ -213,7 +213,7 @@ classes.Docs = class {
 &lt;input&nbsp;type=&quot;month&quot;&nbsp;name=&quot;&quot;&nbsp;value=&quot;&quot;&nbsp;placeholder=&quot;2023&#45;01&quot;&nbsp;/&gt;
 &lt;/div&gt;</code></pre>
 							<p>
-								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.id('monthSource')" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rs-copy"></i> COPY</button>
+								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.id('monthSource')" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rr-copy"></i> COPY</button>
 							</p>
 						</div>
 
@@ -235,7 +235,7 @@ classes.Docs = class {
 &lt;input&nbsp;type=&quot;number&quot;&nbsp;name=&quot;&quot;&nbsp;value=&quot;&quot;&nbsp;step=&quot;0.01&quot;&nbsp;placeholder=&quot;0.01&quot;&nbsp;/&gt;
 &lt;/div&gt;</code></pre>
 							<p>
-								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.id('numberSource')" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rs-copy"></i> COPY</button>
+								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.id('numberSource')" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rr-copy"></i> COPY</button>
 							</p>
 						</div>
 
@@ -257,7 +257,7 @@ classes.Docs = class {
 &lt;input&nbsp;type=&quot;password&quot;&nbsp;name=&quot;&quot;&nbsp;value=&quot;&quot;&nbsp;placeholder=&quot;password&quot;&nbsp;/&gt;
 &lt;/div&gt;</code></pre>
 							<p>
-								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.id('passwordSource')" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rs-copy"></i> COPY</button>
+								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.id('passwordSource')" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rr-copy"></i> COPY</button>
 							</p>
 						</div>
 						<hr class="ColFlex" />
@@ -283,7 +283,7 @@ classes.Docs = class {
 &lt;input&nbsp;type=&quot;radio&quot;&nbsp;id=&quot;radio3&quot;&nbsp;name=&quot;radio1&quot;&nbsp;disabled=&quot;disabled&quot;&nbsp;/&gt;&lt;label&nbsp;for=&quot;radio3&quot;&gt;disabled&lt;/label&gt;
 &lt;/div&gt;</code></pre>
 							<p>
-								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.id('radioSource')" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rs-copy"></i> COPY</button>
+								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.id('radioSource')" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rr-copy"></i> COPY</button>
 							</p>
 						</div>
 
@@ -304,7 +304,7 @@ classes.Docs = class {
 &lt;input&nbsp;type=&quot;range&quot;&nbsp;name=&quot;&quot;&nbsp;step=&quot;1&quot;&nbsp;min=&quot;0&quot;&nbsp;max=&quot;100&quot;&nbsp;value=&quot;50&quot;&nbsp;/&gt;
 &lt;/div&gt;</code></pre>
 							<p>
-								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.id('rangeSource')" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rs-copy"></i> COPY</button>
+								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.id('rangeSource')" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rr-copy"></i> COPY</button>
 							</p>
 						</div>
 						<hr class="ColFlex" />
@@ -329,7 +329,7 @@ classes.Docs = class {
 &lt;/div&gt;
 &lt;/div&gt;</code></pre>
 							<p>
-								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.id('dualrangeSource')" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rs-copy"></i> COPY</button>
+								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.id('dualrangeSource')" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rr-copy"></i> COPY</button>
 							</p>
 						</div>
 
@@ -351,7 +351,7 @@ classes.Docs = class {
 &lt;input&nbsp;type=&quot;search&quot;&nbsp;name=&quot;&quot;&nbsp;value=&quot;&quot;&nbsp;placeholder=&quot;search&quot;&nbsp;/&gt;
 &lt;/div&gt;</code></pre>
 							<p>
-								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.id('searchSource')" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rs-copy"></i> COPY</button>
+								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.id('searchSource')" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rr-copy"></i> COPY</button>
 							</p>
 						</div>
 
@@ -378,7 +378,7 @@ classes.Docs = class {
 &lt;/select&gt;
 &lt;/div&gt;</code></pre>
 							<p>
-								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.id('selectSource')" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rs-copy"></i> COPY</button>
+								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.id('selectSource')" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rr-copy"></i> COPY</button>
 							</p>
 						</div>
 						<hr class="ColFlex" />
@@ -398,7 +398,7 @@ classes.Docs = class {
 &lt;input&nbsp;type=&quot;tel&quot;&nbsp;name=&quot;&quot;&nbsp;value=&quot;&quot;&nbsp;placeholder=&quot;tel&quot;&nbsp;/&gt;
 &lt;/div&gt;</code></pre>
 							<p>
-								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.id('telSource')" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rs-copy"></i> COPY</button>
+								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.id('telSource')" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rr-copy"></i> COPY</button>
 							</p>
 						</div>
 
@@ -419,7 +419,7 @@ classes.Docs = class {
 &lt;input&nbsp;type=&quot;text&quot;&nbsp;name=&quot;&quot;&nbsp;value=&quot;&quot;&nbsp;placeholder=&quot;&quot;&nbsp;/&gt;
 &lt;/div&gt;</code></pre>
 							<p>
-								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.id('textSource')" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rs-copy"></i> COPY</button>
+								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.id('textSource')" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rr-copy"></i> COPY</button>
 							</p>
 						</div>
 						<hr class="ColFlex" />
@@ -440,7 +440,7 @@ classes.Docs = class {
 &lt;textarea&nbsp;name=&quot;&quot;&nbsp;placeholder=&quot;textarea&quot;&gt;&lt;/textarea&gt;
 &lt;/div&gt;</code></pre>
 							<p>
-								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.id('textareaSource')" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rs-copy"></i> COPY</button>
+								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.id('textareaSource')" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rr-copy"></i> COPY</button>
 							</p>
 						</div>
 						<hr class="ColFlex" />
@@ -461,7 +461,7 @@ classes.Docs = class {
 &lt;input&nbsp;type=&quot;time&quot;&nbsp;name=&quot;&quot;&nbsp;value=&quot;&quot;&nbsp;/&gt;
 &lt;/div&gt;</code></pre>
 							<p>
-								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.id('timeSource')" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rs-copy"></i> COPY</button>
+								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.id('timeSource')" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rr-copy"></i> COPY</button>
 							</p>
 						</div>
 						<hr class="ColFlex" />
@@ -482,7 +482,7 @@ classes.Docs = class {
 &lt;input&nbsp;type=&quot;url&quot;&nbsp;name=&quot;&quot;&nbsp;value=&quot;&quot;&nbsp;placeholder=&quot;url&quot;&nbsp;/&gt;
 &lt;/div&gt;</code></pre>
 							<p>
-								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.id('urlSource')" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rs-copy"></i> COPY</button>
+								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.id('urlSource')" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rr-copy"></i> COPY</button>
 							</p>
 						</div>
 						<hr class="ColFlex" />
@@ -503,7 +503,7 @@ classes.Docs = class {
 &lt;input&nbsp;type=&quot;week&quot;&nbsp;name=&quot;&quot;&nbsp;value=&quot;2023&#45;W01&quot;&nbsp;/&gt;
 &lt;/div&gt;</code></pre>
 							<p>
-								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.id('weekSource')" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rs-copy"></i> COPY</button>
+								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.id('weekSource')" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rr-copy"></i> COPY</button>
 							</p>
 						</div>
 					</div>
@@ -536,7 +536,7 @@ classes.Docs = class {
 &lt;/div&gt;
 &lt;/div&gt;</code></pre>
 							<p>
-								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.id('toggleSource')" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rs-copy"></i> COPY</button>
+								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.id('toggleSource')" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rr-copy"></i> COPY</button>
 							</p>
 						</div>
 						<hr class="ColFlex" />
@@ -566,7 +566,7 @@ classes.Docs = class {
 									'okFn': () => {console.log('ok')},
 									'noFn': () => {console.log('no')},
 									'cancelFn': () => {console.log('ignore')}
-								});" class="Btn BtnDanger"><i class="fi fi-rs-trash"></i> DELETE</button>
+								});" class="Btn BtnDanger"><i class="fi fi-rr-trash"></i> DELETE</button>
 							</p>
 						</div>
 						<div class="ColFlexCalc280 pdt2 pdb2 pdl2">
@@ -577,14 +577,14 @@ classes.Docs = class {
 							<p class="mgb2"><b>Copy to Clipboard</b></p>
 							<p id="copyId">Exorcizamus te, omnis immundus spiritus, omnis satanica potestas, omnis incursio infernalis adversarii, omnis legio, omnis congregatio et secta diabolica...</p>
 							<p>
-								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.id('copyId')" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rs-copy"></i> COPY</button>
+								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.id('copyId')" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rr-copy"></i> COPY</button>
 							</p>
 						</div>
 						<div class="ColFlexCalc280 pdt2 pdb2 pdl2">
 <pre id="copySource"><code class="language-html">&lt;p&nbsp;id=&quot;id&quot;&gt;Text&lt;p&gt;
 &lt;button&nbsp;onclick=&quot;Copy.id(&#39;id&#39;)&quot;&gt;copy&lt;/button&gt;</code></pre>
 							<p>
-								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.id('copySource')" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rs-copy"></i> COPY</button>
+								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.id('copySource')" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rr-copy"></i> COPY</button>
 							</p>
 						</div>
 						<hr class="ColFlex" />
@@ -619,10 +619,10 @@ classes.Docs = class {
 											<table class="Table">
 												<thead>
 													<tr>
-														<th class="TxLeft">COL 1 <i class="fi fi-rs-arrows-alt-v"></i></th>
-														<th class="TxLeft">COL 2 <i class="fi fi-rs-arrows-alt-v"></i></th>
-														<th class="TxLeft">COL 3 <i class="fi fi-rs-arrows-alt-v"></i></th>
-														<th class="TxLeft">COL 4 <i class="fi fi-rs-arrows-alt-v"></i></th>
+														<th class="TxLeft">COL 1 <i class="fi fi-rr-arrows-alt-v"></i></th>
+														<th class="TxLeft">COL 2 <i class="fi fi-rr-arrows-alt-v"></i></th>
+														<th class="TxLeft">COL 3 <i class="fi fi-rr-arrows-alt-v"></i></th>
+														<th class="TxLeft">COL 4 <i class="fi fi-rr-arrows-alt-v"></i></th>
 													</tr>
 												</thead>
 												<tbody>
@@ -702,7 +702,7 @@ Tooltip&nbsp;&lt;b&gt;HTML&lt;/b&gt;
 Exorcizamus&nbsp;te,&nbsp;omnis&nbsp;immundus&nbsp;spiritus,&nbsp;omnis&nbsp;satanica&nbsp;potestas,&nbsp;omnis&nbsp;incursio&nbsp;infernalis&nbsp;adversarii,&nbsp;omnis&nbsp;legio,&nbsp;omnis&nbsp;congregatio&nbsp;et&nbsp;secta&nbsp;diabolica...&nbsp;Ergo,&nbsp;draco&nbsp;maledicte&nbsp;et&nbsp;omnis&nbsp;legio&nbsp;diabolica,&nbsp;adjuramus&nbsp;te&nbsp;...&nbsp;cessa&nbsp;decipere&nbsp;humanas&nbsp;creaturas,&nbsp;eisque&nbsp;æternæ&nbsp;perditionìs&nbsp;venenum&nbsp;propinare...
 &lt;/div&gt;</code></pre>
 							<p>
-								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.id('tooltipSource')" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rs-copy"></i> COPY</button>
+								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.id('tooltipSource')" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rr-copy"></i> COPY</button>
 							</p>
 						</div>
 						<hr class="ColFlex" />
@@ -733,30 +733,30 @@ Exorcizamus&nbsp;te,&nbsp;omnis&nbsp;immundus&nbsp;spiritus,&nbsp;omnis&nbsp;sat
 
 		var tabsys = new Tabs('tabs', 'area1', [
 			{
-				'tab': '<i class="fi fi-rs-grid"></i> TABLE', 
+				'tab': '<i class="fi fi-rr-grid"></i> TABLE', 
 				'for': 'tab1'
 			},
 			{
-				'tab': '<i class="fi fi-rs-picture"></i> IMAGE', 
+				'tab': '<i class="fi fi-rr-picture"></i> IMAGE', 
 				'for': 'tab2'
 			},
 			{
-				'tab': '<i class="fi fi-rs-text"></i> TEXT', 
+				'tab': '<i class="fi fi-rr-text"></i> TEXT', 
 				'for': 'tab3'
 			},
 			{
-				'tab': '<i class="fi fi-rs-bars-progress"></i> SECOND LEVEL', 
+				'tab': '<i class="fi fi-rr-bars-progress"></i> SECOND LEVEL', 
 				'for': 'tab4'
 			}
 		]);
 
 		var tabsys2 = new Tabs('tabs2', 'area11', [
 			{
-				'tab': '<i class="fi fi-rs-grid"></i> L1', 
+				'tab': '<i class="fi fi-rr-grid"></i> L1', 
 				'for': 'tab11'
 			},
 			{
-				'tab': '<i class="fi fi-rs-picture"></i> L2', 
+				'tab': '<i class="fi fi-rr-picture"></i> L2', 
 				'for': 'tab12'
 			}
 		]);

@@ -45,7 +45,7 @@ classes.WarningComp = class {
 	'id': 'danger'
 });</code></pre>
 								<div class="pd2">
-									<p><button type="button" class="Btn BtnPri w100p" onclick="pages.warningcomp.testComp()">TEST <i class="fi-rs-rocket-lunch"></i></button></p>
+									<p><button type="button" class="Btn BtnPri w100p" onclick="pages.warningcomp.testComp()">TEST <i class="fi fi-rr-rocket-lunch"></i></button></p>
 								</div>
 							</div>
 						</div>
@@ -54,10 +54,10 @@ classes.WarningComp = class {
 							<table class="Table">
 								<thead>
 									<tr>
-										<th class="TxLeft"><i class="fi-rs-list"></i> PARAM | TYPE</th>
-										<th class="TxLeft"><i class="fi-rs-shield-exclamation"></i> REQUIRED</th>
-										<th class="TxLeft"><i class="fi-rs-cursor-text"></i> VALUE</th>
-										<th class="TxLeft"><i class="fi-rs-cursor-text-alt"></i> DEFAULT</th>
+										<th class="TxLeft"><i class="fi fi-rr-list"></i> PARAM | TYPE</th>
+										<th class="TxLeft"><i class="fi fi-rr-shield-exclamation"></i> REQUIRED</th>
+										<th class="TxLeft"><i class="fi fi-rr-cursor-text"></i> VALUE</th>
+										<th class="TxLeft"><i class="fi fi-rr-cursor-text-alt"></i> DEFAULT</th>
 									</tr>
 								</thead>
 								<tbody>
@@ -73,7 +73,7 @@ classes.WarningComp = class {
 									</tr>
 								</tbody>
 							</table>
-							<p><i class="fi-rs-undo-alt"></i> Return: void</p>
+							<p><i class="fi fi-rr-undo-alt"></i> Return: void</p>
 						</div>
 					</div>
 				</div>
@@ -104,8 +104,8 @@ classes.WarningComp = class {
 		var params = {
 			'title': title ?? 'Do that?',
 			'message': message ?? 'Do you really want to do this?',
-			'ok': '<i class="fi-rs-check"></i> DO THAT',
-			'no': '<i class="fi-rs-ban"></i> DO NOTHING',
+			'ok': '<i class="fi fi-rr-check"></i> DO THAT',
+			'no': '<i class="fi fi-rr-ban"></i> DO NOTHING',
 			'okClass': 'Btn BtnDanger',
 			'noClass': 'Btn BtnLight'
 		};
@@ -113,8 +113,8 @@ classes.WarningComp = class {
 		generateConfirm.textContent = `Confirm({
 	'title': '`+params.title+`',
 	'message': '`+params.message+`',
-	'ok': '<i class="fi-rs-check"></i> DO THAT',
-	'no': '<i class="fi-rs-ban"></i> DO NOTHING',
+	'ok': '<i class="fi fi-rr-check"></i> DO THAT',
+	'no': '<i class="fi fi-rr-ban"></i> DO NOTHING',
 	'okClass': 'Btn BtnDanger',
 	'noClass': 'Btn BtnLight'
 });`;
