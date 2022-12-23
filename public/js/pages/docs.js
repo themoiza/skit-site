@@ -41,12 +41,13 @@ classes.Docs = class {
 								<input type="checkbox" class="Checkbox" id="checkbox2" name="" value="" /><label for="checkbox2">Check 2</label>
 							</div>
 							<div class="field">
-								<input type="checkbox" class="Checkbox" id="checkbox3" name="" value="" indeterminate="indeterminate" /><label for="checkbox3">Indeterminate</label>
+								<input type="checkbox" class="Checkbox" id="checkbox3" name="" value="" /><label for="checkbox3">Indeterminate</label>
 								<script>checkbox3.indeterminate = true;</script>
 							</div>
 							<div class="field">
 								<input type="checkbox" class="Checkbox" id="checkbox4" name="" value="" disabled="disabled" /><label for="checkbox4">disabled</label>
 							</div>
+							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M22 2v20h-20v-20h20zm2-2h-24v24h24v-24zm-6 6h-12v12h12v-12z"/></svg>
 						</div>
 						<div class="ColFlexCalc280 pdt2 pdb2 pdl2">
 <pre id="checkboxSource"><code class="language-html">&lt;div&nbsp;class=&quot;field&quot;&gt;
@@ -705,19 +706,6 @@ Exorcizamus&nbsp;te,&nbsp;omnis&nbsp;immundus&nbsp;spiritus,&nbsp;omnis&nbsp;sat
 								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.id('tooltipSource')" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rr-copy"></i> COPY</button>
 							</p>
 						</div>
-						<hr class="ColFlex" />
-						<div class="ColFlex280px pdt2 pdb2" id="menuJsWarning">
-							<p class="mgb2"><b>Warning</b></p>
-							<button class="Btn BtnLight mgb1" onclick="Warning({'title': 'title','message': 'Exorcizamus te, omnis immundus spiritus, omnis satanica potestas, omnis incursio infernalis adversarii, omnis legio, omnis congregatio et secta diabolica... Ergo, draco maledicte et omnis legio diabolica, adjuramus te ... cessa decipere humanas creaturas, eisque æternæ perditionìs venenum propinare...', 'timeout': 100000, 'position': 9});">OPEN</button>
-							<button class="Btn BtnLight mgb1" onclick="Warning({'color': 'danger', 'title': 'title','message': 'Danger', 'timeout': 10000, 'id': 'danger'});">OPEN DANGER</button>
-							<button class="Btn BtnLight mgb1" onclick="Warning({'color': 'pri', 'title': 'title','message': 'Pri', 'timeout': 10000, 'id': 'pri'});">OPEN PRIMARY</button>
-							<button class="Btn BtnLight mgb1" onclick="Warning({'color': 'sec', 'title': 'title','message': 'Sec', 'timeout': 3000, 'id': 'sec'});">OPEN SECONDARY</button>
-							<button class="Btn BtnLight mgb1" onclick="Warning({'color': 'dark', 'title': 'title','message': 'Dark', 'timeout': 10000, 'id': 'dark'});">OPEN DARK</button>
-							<button class="Btn BtnLight mgb1" onclick="Warning({'color': 'light', 'title': 'title','message': 'Light', 'timeout': 10000, 'id': 'light'});">OPEN LIGHT</button>
-						</div>
-						<div class="ColFlexCalc280 pdt2 pdb2 pdl2">
-							xx
-						</div>
 					</div>
 				</div>
 			</div>`;
@@ -730,6 +718,8 @@ Exorcizamus&nbsp;te,&nbsp;omnis&nbsp;immundus&nbsp;spiritus,&nbsp;omnis&nbsp;sat
 		el.innerHTML = page;
 
 		hljs.highlightAll();
+
+		checkbox3.indeterminate = true;
 
 		var tabsys = new Tabs('tabs', 'area1', [
 			{

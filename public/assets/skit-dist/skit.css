@@ -12254,6 +12254,7 @@ i[class^=fi-] {
 }
 .field .Radio, .field .Checkbox {
   appearance: none;
+  color: inherit;
   cursor: pointer;
   border: none;
   width: var(--field-h);
@@ -12262,12 +12263,13 @@ i[class^=fi-] {
   position: relative;
 }
 .field .Radio::before, .field .Checkbox::before {
-  color: hsl(var(--pri-hue), var(--pri-sat), var(--pri-lig));
+  color: inherit;
   position: absolute;
   top: 0;
   left: 0;
   line-height: calc(var(--field-h) - 0.3rem);
   font-family: var(--font-family);
+  font-style: normal !important;
   font-size: var(--field-h);
 }
 .field .Radio::before {
