@@ -12271,6 +12271,7 @@ i[class^=fi-] {
   font-family: var(--font-family);
   font-style: normal !important;
   font-size: var(--field-h);
+  -webkit-tap-highlight-color: transparent;
 }
 .field .Radio::before {
   content: "○"; /*○●*/
