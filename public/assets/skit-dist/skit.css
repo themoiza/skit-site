@@ -12301,7 +12301,7 @@ i[class^=fi-] {
   font-size: var(--field-h);
 }
 .field .Checkbox:indeterminate::before {
-  content: "⊟";
+  content: "◫";
   line-height: calc(var(--field-h) - 0.3rem);
   font-family: var(--font-family);
   font-style: normal !important;
