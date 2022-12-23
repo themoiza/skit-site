@@ -47,7 +47,6 @@ classes.Docs = class {
 							<div class="field">
 								<input type="checkbox" class="Checkbox" id="checkbox4" name="" value="" disabled="disabled" /><label for="checkbox4">disabled</label>
 							</div>
-							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M22 2v20h-20v-20h20zm2-2h-24v24h24v-24zm-6 6h-12v12h12v-12z"/></svg>
 						</div>
 						<div class="ColFlexCalc280 pdt2 pdb2 pdl2">
 <pre id="checkboxSource"><code class="language-html">&lt;div&nbsp;class=&quot;field&quot;&gt;

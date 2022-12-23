@@ -12274,18 +12274,38 @@ i[class^=fi-] {
 }
 .field .Radio::before {
   content: "○"; /*○●*/
+  line-height: calc(var(--field-h) - 0.3rem);
+  font-family: var(--font-family);
+  font-style: normal !important;
+  font-size: var(--field-h);
 }
 .field .Checkbox::before {
   content: "□"; /*□▣*/
+  line-height: calc(var(--field-h) - 0.3rem);
+  font-family: var(--font-family);
+  font-style: normal !important;
+  font-size: var(--field-h);
 }
 .field .Radio:checked:before {
   content: "●";
+  line-height: calc(var(--field-h) - 0.3rem);
+  font-family: var(--font-family);
+  font-style: normal !important;
+  font-size: var(--field-h);
 }
 .field .Checkbox:checked::before {
   content: "▣";
+  line-height: calc(var(--field-h) - 0.3rem);
+  font-family: var(--font-family);
+  font-style: normal !important;
+  font-size: var(--field-h);
 }
 .field .Checkbox:indeterminate::before {
   content: "⊟";
+  line-height: calc(var(--field-h) - 0.3rem);
+  font-family: var(--font-family);
+  font-style: normal !important;
+  font-size: var(--field-h);
 }
 .field .Radio + label, .field .Checkbox + label {
   display: inline-block;
