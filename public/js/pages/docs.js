@@ -50,13 +50,17 @@ classes.Docs = class {
 						</div>
 						<div class="ColFlexCalc280 pdt2 pdb2 pdl2">
 <pre id="checkboxSource"><code class="language-html">&lt;div&nbsp;class=&quot;field&quot;&gt;
-&lt;input&nbsp;type=&quot;checkbox&quot;&nbsp;id=&quot;checkbox1&quot;&nbsp;name=&quot;&quot;&nbsp;value=&quot;&quot;&nbsp;checked=&quot;checked&quot;&nbsp;/&gt;&lt;label&nbsp;for=&quot;checkbox1&quot;&gt;Check&nbsp;1&lt;/label&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;input&nbsp;type=&quot;checkbox&quot;&nbsp;class=&quot;Checkbox&quot;&nbsp;id=&quot;checkbox1&quot;&nbsp;name=&quot;&quot;&nbsp;value=&quot;&quot;&nbsp;checked=&quot;checked&quot;&nbsp;/&gt;&lt;label&nbsp;for=&quot;checkbox1&quot;&gt;Check&nbsp;1&lt;/label&gt;
 &lt;/div&gt;
 &lt;div&nbsp;class=&quot;field&quot;&gt;
-&lt;input&nbsp;type=&quot;checkbox&quot;&nbsp;id=&quot;checkbox2&quot;&nbsp;name=&quot;&quot;&nbsp;value=&quot;&quot;&nbsp;/&gt;&lt;label&nbsp;for=&quot;checkbox2&quot;&gt;Check&nbsp;2&lt;/label&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;input&nbsp;type=&quot;checkbox&quot;&nbsp;class=&quot;Checkbox&quot;&nbsp;id=&quot;checkbox2&quot;&nbsp;name=&quot;&quot;&nbsp;value=&quot;&quot;&nbsp;/&gt;&lt;label&nbsp;for=&quot;checkbox2&quot;&gt;Check&nbsp;2&lt;/label&gt;
 &lt;/div&gt;
 &lt;div&nbsp;class=&quot;field&quot;&gt;
-&lt;input&nbsp;type=&quot;checkbox&quot;&nbsp;id=&quot;checkbox3&quot;&nbsp;name=&quot;&quot;&nbsp;value=&quot;&quot;&nbsp;disabled=&quot;disabled&quot;&nbsp;/&gt;&lt;label&nbsp;for=&quot;checkbox3&quot;&gt;disabled&lt;/label&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;input&nbsp;type=&quot;checkbox&quot;&nbsp;class=&quot;Checkbox&quot;&nbsp;id=&quot;checkbox3&quot;&nbsp;name=&quot;&quot;&nbsp;value=&quot;&quot;&nbsp;/&gt;&lt;label&nbsp;for=&quot;checkbox3&quot;&gt;Indeterminate&lt;/label&gt;
+&lt;script&gt;checkbox3.indeterminate&nbsp;=&nbsp;true;&lt;/script&gt;
+&lt;/div&gt;
+&lt;div&nbsp;class=&quot;field&quot;&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;input&nbsp;type=&quot;checkbox&quot;&nbsp;class=&quot;Checkbox&quot;&nbsp;id=&quot;checkbox4&quot;&nbsp;name=&quot;&quot;&nbsp;value=&quot;&quot;&nbsp;disabled=&quot;disabled&quot;&nbsp;/&gt;&lt;label&nbsp;for=&quot;checkbox4&quot;&gt;disabled&lt;/label&gt;
 &lt;/div&gt;</code></pre>
 							<p>
 								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.id('checkboxSource')" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rr-copy"></i> COPY</button>
@@ -74,8 +78,8 @@ classes.Docs = class {
 						</div>
 						<div class="ColFlexCalc280 pdt2 pdb2 pdl2">
 <pre id="colorSource"><code class="language-html">&lt;div&nbsp;class=&quot;field&quot;&gt;
-&lt;label&nbsp;class=&quot;label&quot;&gt;COLOR&lt;/label&gt;
-&lt;input&nbsp;type=&quot;color&quot;&nbsp;name=&quot;&quot;&nbsp;value=&quot;#777777&quot;&nbsp;/&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;label&nbsp;for=&quot;input0&quot;&nbsp;class=&quot;label&quot;&gt;COLOR&lt;/label&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;input&nbsp;id=&quot;input0&quot;&nbsp;type=&quot;color&quot;&nbsp;name=&quot;&quot;&nbsp;value=&quot;#777777&quot;&nbsp;/&gt;
 &lt;/div&gt;</code></pre>
 							<p>
 								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.id('colorSource')" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rr-copy"></i> COPY</button>
@@ -101,15 +105,15 @@ classes.Docs = class {
 						</div>
 						<div class="ColFlexCalc280 pdt2 pdb2 pdl2">
 <pre id="datalistSource"><code class="language-html">&lt;div&nbsp;class=&quot;field&quot;&gt;
-&lt;label&nbsp;class=&quot;label&quot;&gt;DATALIST&lt;/label&gt;
-&lt;input&nbsp;type=&quot;text&quot;&nbsp;list=&quot;browsers&quot;&nbsp;name=&quot;browser&quot;&nbsp;/&gt;
-&lt;datalist&nbsp;id=&quot;browsers&quot;&gt;
-	&lt;option&nbsp;value=&quot;Internet&nbsp;Explorer&quot;&gt;
-	&lt;option&nbsp;value=&quot;Firefox&quot;&gt;
-	&lt;option&nbsp;value=&quot;Chrome&quot;&gt;
-	&lt;option&nbsp;value=&quot;Opera&quot;&gt;
-	&lt;option&nbsp;value=&quot;Safari&quot;&gt;
-&lt;/datalist&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;label&nbsp;for=&quot;input1&quot;&nbsp;class=&quot;label&quot;&gt;DATALIST&lt;/label&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;input&nbsp;id=&quot;input1&quot;&nbsp;type=&quot;text&quot;&nbsp;list=&quot;browsers&quot;&nbsp;name=&quot;browser&quot;&nbsp;placeholder=&quot;datalist&quot;&nbsp;/&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;datalist&nbsp;id=&quot;browsers&quot;&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;option&nbsp;value=&quot;Internet&nbsp;Explorer&quot;&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;option&nbsp;value=&quot;Firefox&quot;&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;option&nbsp;value=&quot;Chrome&quot;&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;option&nbsp;value=&quot;Opera&quot;&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;option&nbsp;value=&quot;Safari&quot;&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;/datalist&gt;
 &lt;/div&gt;</code></pre>
 							<p>
 								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.id('datalistSource')" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rr-copy"></i> COPY</button>
@@ -128,8 +132,8 @@ classes.Docs = class {
 						</div>
 						<div class="ColFlexCalc280 pdt2 pdb2 pdl2">
 <pre id="dateSource"><code class="language-html">&lt;div&nbsp;class=&quot;field&quot;&gt;
-&lt;label&nbsp;class=&quot;label&quot;&gt;DATE&lt;/label&gt;
-&lt;input&nbsp;type=&quot;date&quot;&nbsp;name=&quot;&quot;&nbsp;value=&quot;&quot;&nbsp;/&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;label&nbsp;for=&quot;input2&quot;&nbsp;class=&quot;label&quot;&gt;DATE&lt;/label&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;input&nbsp;id=&quot;input2&quot;&nbsp;type=&quot;date&quot;&nbsp;name=&quot;&quot;&nbsp;value=&quot;&quot;&nbsp;/&gt;
 &lt;/div&gt;</code></pre>
 							<p>
 								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.id('dateSource')" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rr-copy"></i> COPY</button>
@@ -148,8 +152,8 @@ classes.Docs = class {
 						</div>
 						<div class="ColFlexCalc280 pdt2 pdb2 pdl2">
 <pre id="datelocalSource"><code class="language-html">&lt;div&nbsp;class=&quot;field&quot;&gt;
-&lt;label&nbsp;class=&quot;label&quot;&gt;DATE&nbsp;LOCAL&lt;/label&gt;
-&lt;input&nbsp;type=&quot;datetime&#45;local&quot;&nbsp;name=&quot;&quot;&nbsp;value=&quot;&quot;&nbsp;/&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;label&nbsp;for=&quot;input3&quot;&nbsp;class=&quot;label&quot;&gt;DATE&nbsp;LOCAL&lt;/label&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;input&nbsp;id=&quot;input3&quot;&nbsp;type=&quot;datetime&#45;local&quot;&nbsp;name=&quot;&quot;&nbsp;value=&quot;&quot;&nbsp;/&gt;
 &lt;/div&gt;</code></pre>
 							<p>
 								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.id('datelocalSource')" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rr-copy"></i> COPY</button>
@@ -168,8 +172,8 @@ classes.Docs = class {
 						</div>
 						<div class="ColFlexCalc280 pdt2 pdb2 pdl2">
 <pre id="emailSource"><code class="language-html">&lt;div&nbsp;class=&quot;field&quot;&gt;
-&lt;label&nbsp;class=&quot;label&quot;&gt;E&#45;MAIL&lt;/label&gt;
-&lt;input&nbsp;type=&quot;email&quot;&nbsp;name=&quot;&quot;&nbsp;value=&quot;&quot;&nbsp;placeholder=&quot;e&#45;mail&quot;&nbsp;/&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;label&nbsp;for=&quot;input4&quot;&nbsp;class=&quot;label&quot;&gt;E&#45;MAIL&lt;/label&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;input&nbsp;id=&quot;input4&quot;&nbsp;type=&quot;email&quot;&nbsp;name=&quot;&quot;&nbsp;value=&quot;&quot;&nbsp;placeholder=&quot;e&#45;mail&quot;&nbsp;/&gt;
 &lt;/div&gt;</code></pre>
 							<p>
 								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.id('emailSource')" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rr-copy"></i> COPY</button>
@@ -187,8 +191,8 @@ classes.Docs = class {
 						</div>
 						<div class="ColFlexCalc280 pdt2 pdb2 pdl2">
 <pre id="fileSource"><code class="language-html">&lt;div&nbsp;class=&quot;field&quot;&gt;
-&lt;label&nbsp;class=&quot;label&quot;&gt;FILE&lt;/label&gt;
-&lt;input&nbsp;type=&quot;file&quot;&nbsp;name=&quot;&quot;&nbsp;/&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;label&nbsp;for=&quot;input5&quot;&nbsp;class=&quot;label&quot;&gt;FILE&lt;/label&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;input&nbsp;id=&quot;input5&quot;&nbsp;type=&quot;file&quot;&nbsp;name=&quot;&quot;&nbsp;/&gt;
 &lt;/div&gt;</code></pre>
 							<p>
 								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.id('fileSource')" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rr-copy"></i> COPY</button>
@@ -543,42 +547,6 @@ classes.Docs = class {
 					<hr />
 					<h2>JS COMPONENTS</h2>
 					<div class="Flex">
-						<div class="ColFlex280px pdt2 pdb2" id="menuJsCopy">
-							<p class="mgb2"><b>Copy to Clipboard</b></p>
-							<p id="copyId">Exorcizamus te, omnis immundus spiritus, omnis satanica potestas, omnis incursio infernalis adversarii, omnis legio, omnis congregatio et secta diabolica...</p>
-							<p>
-								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.id('copyId')" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rr-copy"></i> COPY</button>
-							</p>
-						</div>
-						<div class="ColFlexCalc280 pdt2 pdb2 pdl2">
-<pre id="copySource"><code class="language-html">&lt;p&nbsp;id=&quot;id&quot;&gt;Text&lt;p&gt;
-&lt;button&nbsp;onclick=&quot;Copy.id(&#39;id&#39;)&quot;&gt;copy&lt;/button&gt;</code></pre>
-							<p>
-								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.id('copySource')" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rr-copy"></i> COPY</button>
-							</p>
-						</div>
-						<hr class="ColFlex" />
-						<div class="ColFlex280px pdt2 pdb2" id="menuJsDebounce">
-							<p class="mgb2"><b>Debounce</b></p>
-							<p><button class="Btn BtnPri" onclick="Debounce(() => {
-								Warning({'title': 'Debounce','message': 'Click!'})
-							}, 1000, 'debounce1')">Click fast n times</button></p>
-							<div class="field w100p">
-								<label for="input17" class="label">Text any thing</label>
-								<textarea oninput="testDebounce()" id="input17" name="" placeholder="textarea"></textarea>
-							</div>
-							<script>
-								testDebounce = () => {
-									Debounce(() => {
-										Warning({'title': 'Debounce','message': 'Text!'})
-									}, 1000, 'debounce1');
-								}
-							</script>
-						</div>
-						<div class="ColFlexCalc280 pdt2 pdb2 pdl2">
-							xx
-						</div>
-						<hr class="ColFlex" />
 						<div class="ColFlex pdt2 pdb2" id="menuJsTab">
 							<p class="mgb2"><b>Tab</b></p>
 							<div class="Tabs">
