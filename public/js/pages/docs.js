@@ -21,7 +21,7 @@ classes.Docs = class {
 				<div class="ColFlexCalc220 pd2">
 					<div class="mgt4 mgb4 pdt2 pdb2">
 						<h1>Skit</h1>
-						<p>SKIT is an advanced front-end for web software development. Simple because it has as few dependencies as possible.</p>
+						<p>SKIT is an advanced front-end for web Strokeware development. Simple because it has as few dependencies as possible.</p>
 						<h2>Methodology</h2>
 						<ul>
 							<li>HSL color</li>
@@ -507,23 +507,13 @@ classes.Docs = class {
 							</p>
 						</div>
 					</div>
-					<hr />
-					<h2>NOT STANDARD</h2>
-					<div class="MarginFix pdt2 pdb2" id="menuInfo">
-						<p><b>Info</b></p>
-						<div class="Info w100p">Info</div>
-						<div class="Info InfoPri">Info pri</div>
-						<div class="Info InfoSec">Info sec</div>
-						<div class="Info InfoWarning">Info warning</div>
-						<div class="Info InfoDanger">Info Danger</div>
-					</div>
 					<hr class="ColFlex" />
 					<div class="Flex">
 						<div class="ColFlex280px pdt2 pdb2" id="menuCompToggle">
 							<p class="mgb2"><b>Toggle</b></p>
 							<div class="field">
-								<div class="toggle">
-									<input type="checkbox" class="Checkbox" data-skit-listen="darkmode" onchange="Darkmode.set(this.checked)" id="toggle1" name="" value="" />
+								<div class="Toggle1">
+									<input type="checkbox" class="Checkbox" id="toggle1" name="" value="" />
 									<label for="toggle1">Dark mode</label>
 								</div>
 							</div>
@@ -543,8 +533,8 @@ classes.Docs = class {
 						<div class="ColFlex280px pdt2 pdb2" id="menuCompToggle2">
 							<p class="mgb2"><b>Toggle 2</b></p>
 							<div class="field">
-								<div class="toggle2">
-									<input id="toggle2" type="range" name="" min="0" max="1" step="1" />
+								<div class="Toggle2">
+									<input id="toggle2" type="range" name="" min="0" max="1" step="0.1" />
 									<label for="toggle2">Enable?</label>
 								</div>
 							</div>
@@ -553,26 +543,6 @@ classes.Docs = class {
 					<hr />
 					<h2>JS COMPONENTS</h2>
 					<div class="Flex">
-						<div class="ColFlex280px pdt2 pdb2" id="menuJsConfirm">
-							<p class="mgb2"><b>Confirm</b></p>
-							<p>
-								<button onclick="Confirm({
-									'title': 'DELETE IT?',
-									'message': 'You can do it?',
-									'ok': 'YES',
-									'no': 'NO',
-									'okClass': 'Btn BtnDanger BtnMed',
-									'noClass': 'Btn BtnLight BtnMed',
-									'okFn': () => {console.log('ok')},
-									'noFn': () => {console.log('no')},
-									'cancelFn': () => {console.log('ignore')}
-								});" class="Btn BtnDanger"><i class="fi fi-rr-trash"></i> DELETE</button>
-							</p>
-						</div>
-						<div class="ColFlexCalc280 pdt2 pdb2 pdl2">
-						</div>
-						<hr class="ColFlex" />
-
 						<div class="ColFlex280px pdt2 pdb2" id="menuJsCopy">
 							<p class="mgb2"><b>Copy to Clipboard</b></p>
 							<p id="copyId">Exorcizamus te, omnis immundus spiritus, omnis satanica potestas, omnis incursio infernalis adversarii, omnis legio, omnis congregatio et secta diabolica...</p>

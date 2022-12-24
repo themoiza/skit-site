@@ -26,7 +26,7 @@ window.menu = `
 	<button onclick="submenu2.classList.toggle('active')" class="title"><i class="fi fi-rr-comment-code"></i> NOT STANDARD</button>
 	<div id="submenu2" class="submenu active">
 		<div><a href="/icons">Icons</a></div>
-		<div><a href="/docs#menuInfo">Info</a></div>
+		<div><a href="/info">Info</a></div>
 		<div><a href="/docs#menuDualRange">Dual Range</a></div>
 		<div><a href="/docs#menuCompToggle">Toggle</a></div>
 	</div>
