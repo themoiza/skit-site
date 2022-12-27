@@ -30,6 +30,10 @@ window.menu = `
 		<div><a href="/docs#menuDualRange">Dual Range</a></div>
 		<div><a href="/docs#menuCompToggle">Toggle</a></div>
 	</div>
+	<button onclick="submenu4.classList.toggle('active')" class="title"><i class="fi fi-rr-mobile-button"></i> BUTTONS</button>
+	<div id="submenu4" class="submenu active">
+		<div><a href="/buttons">Buttons</a></div>
+	</div>
 	<button onclick="submenu3.classList.toggle('active')" class="title"><i class="fi fi-rr-drafting-compass"></i> JS COMPONENTS</button>
 	<div id="submenu3" class="submenu active">
 		<div><a href="/confirmcomp">Confirm</a></div>
@@ -40,12 +44,8 @@ window.menu = `
 		<div><a href="/pagination">Pagination</a></div>
 		<div><a href="/paniccomp">Panic</a></div>
 		<div><a href="/superselect">Super Select</a></div>
-		<div><a href="/docs#menuJsTab">Tab</a></div>
-		<div><a href="/docs#menuJsTooltip">Tooltip</a></div>
+		<div><a href="/tabs">Tabs</a></div>
+		<div><a href="/tooltip">Tooltip</a></div>
 		<div><a href="/warning-comp">Warning (Toasts)</a></div>
-	</div>
-	<button onclick="submenu4.classList.toggle('active')" class="title"><i class="fi fi-rr-mobile-button"></i> BUTTONS</button>
-	<div id="submenu4" class="submenu active">
-		<div><a href="/buttons">Buttons</a></div>
 	</div>
 </nav>`;

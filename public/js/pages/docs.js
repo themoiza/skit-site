@@ -213,8 +213,8 @@ classes.Docs = class {
 						</div>
 						<div class="ColFlexCalc280 pdt2 pdb2 pdl2">
 <pre id="monthSource"><code class="language-html">&lt;div&nbsp;class=&quot;field&quot;&gt;
-&lt;label&nbsp;class=&quot;label&quot;&gt;MONTH&lt;/label&gt;
-&lt;input&nbsp;type=&quot;month&quot;&nbsp;name=&quot;&quot;&nbsp;value=&quot;&quot;&nbsp;placeholder=&quot;2023&#45;01&quot;&nbsp;/&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;label&nbsp;for=&quot;input6&quot;&nbsp;class=&quot;label&quot;&gt;MONTH&lt;/label&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;input&nbsp;id=&quot;input6&quot;&nbsp;type=&quot;month&quot;&nbsp;name=&quot;&quot;&nbsp;value=&quot;&quot;&nbsp;placeholder=&quot;2023&#45;01&quot;&nbsp;/&gt;
 &lt;/div&gt;</code></pre>
 							<p>
 								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.id('monthSource')" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rr-copy"></i> COPY</button>
@@ -235,8 +235,8 @@ classes.Docs = class {
 						</div>
 						<div class="ColFlexCalc280 pdt2 pdb2 pdl2">
 <pre id="numberSource"><code class="language-html">&lt;div&nbsp;class=&quot;field&quot;&gt;
-&lt;label&nbsp;class=&quot;label&quot;&gt;NUMBER&lt;/label&gt;
-&lt;input&nbsp;type=&quot;number&quot;&nbsp;name=&quot;&quot;&nbsp;value=&quot;&quot;&nbsp;step=&quot;0.01&quot;&nbsp;placeholder=&quot;0.01&quot;&nbsp;/&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;label&nbsp;for=&quot;input7&quot;&nbsp;class=&quot;label&quot;&gt;NUMBER&lt;/label&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;input&nbsp;id=&quot;input7&quot;&nbsp;type=&quot;number&quot;&nbsp;name=&quot;&quot;&nbsp;value=&quot;&quot;&nbsp;step=&quot;0.01&quot;&nbsp;placeholder=&quot;0.01&quot;&nbsp;/&gt;
 &lt;/div&gt;</code></pre>
 							<p>
 								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.id('numberSource')" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rr-copy"></i> COPY</button>
@@ -257,8 +257,8 @@ classes.Docs = class {
 						</div>
 						<div class="ColFlexCalc280 pdt2 pdb2 pdl2">
 <pre id="passwordSource"><code class="language-html">&lt;div&nbsp;class=&quot;field&quot;&gt;
-&lt;label&nbsp;class=&quot;label&quot;&gt;PASSWORD&lt;/label&gt;
-&lt;input&nbsp;type=&quot;password&quot;&nbsp;name=&quot;&quot;&nbsp;value=&quot;&quot;&nbsp;placeholder=&quot;password&quot;&nbsp;/&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;label&nbsp;for=&quot;input8&quot;&nbsp;class=&quot;label&quot;&gt;PASSWORD&lt;/label&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;input&nbsp;id=&quot;input8&quot;&nbsp;type=&quot;password&quot;&nbsp;name=&quot;&quot;&nbsp;value=&quot;&quot;&nbsp;placeholder=&quot;password&quot;&nbsp;/&gt;
 &lt;/div&gt;</code></pre>
 							<p>
 								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.id('passwordSource')" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rr-copy"></i> COPY</button>
@@ -278,13 +278,13 @@ classes.Docs = class {
 						</div>
 						<div class="ColFlexCalc280 pdt2 pdb2 pdl2">
 <pre id="radioSource"><code class="language-html">&lt;div&nbsp;class=&quot;field&quot;&gt;
-&lt;input&nbsp;type=&quot;radio&quot;&nbsp;id=&quot;radio1&quot;&nbsp;name=&quot;radio1&quot;&nbsp;/&gt;&lt;label&nbsp;for=&quot;radio1&quot;&gt;On&lt;/label&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;input&nbsp;type=&quot;radio&quot;&nbsp;class=&quot;Radio&quot;&nbsp;id=&quot;radio1&quot;&nbsp;name=&quot;radio1&quot;&nbsp;/&gt;&lt;label&nbsp;for=&quot;radio1&quot;&gt;On&lt;/label&gt;
 &lt;/div&gt;
 &lt;div&nbsp;class=&quot;field&quot;&gt;
-&lt;input&nbsp;type=&quot;radio&quot;&nbsp;id=&quot;radio2&quot;&nbsp;name=&quot;radio1&quot;&nbsp;/&gt;&lt;label&nbsp;for=&quot;radio2&quot;&gt;Off&lt;/label&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;input&nbsp;type=&quot;radio&quot;&nbsp;class=&quot;Radio&quot;&nbsp;id=&quot;radio2&quot;&nbsp;name=&quot;radio1&quot;&nbsp;/&gt;&lt;label&nbsp;for=&quot;radio2&quot;&gt;Off&lt;/label&gt;
 &lt;/div&gt;
 &lt;div&nbsp;class=&quot;field&quot;&gt;
-&lt;input&nbsp;type=&quot;radio&quot;&nbsp;id=&quot;radio3&quot;&nbsp;name=&quot;radio1&quot;&nbsp;disabled=&quot;disabled&quot;&nbsp;/&gt;&lt;label&nbsp;for=&quot;radio3&quot;&gt;disabled&lt;/label&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;input&nbsp;type=&quot;radio&quot;&nbsp;class=&quot;Radio&quot;&nbsp;id=&quot;radio3&quot;&nbsp;name=&quot;radio1&quot;&nbsp;disabled=&quot;disabled&quot;&nbsp;/&gt;&lt;label&nbsp;for=&quot;radio3&quot;&gt;disabled&lt;/label&gt;
 &lt;/div&gt;</code></pre>
 							<p>
 								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.id('radioSource')" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rr-copy"></i> COPY</button>
@@ -304,8 +304,8 @@ classes.Docs = class {
 						</div>
 						<div class="ColFlexCalc280 pdt2 pdb2 pdl2">
 <pre id="rangeSource"><code class="language-html">&lt;div&nbsp;class=&quot;field&quot;&gt;
-&lt;label&nbsp;class=&quot;label&quot;&gt;RANGE&lt;/label&gt;
-&lt;input&nbsp;type=&quot;range&quot;&nbsp;name=&quot;&quot;&nbsp;step=&quot;1&quot;&nbsp;min=&quot;0&quot;&nbsp;max=&quot;100&quot;&nbsp;value=&quot;50&quot;&nbsp;/&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;label&nbsp;for=&quot;input9&quot;&nbsp;class=&quot;label&quot;&gt;RANGE&nbsp;&lt;span&nbsp;id=&quot;idResultRange&quot;&gt;[20]&lt;/span&gt;&lt;/label&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;input&nbsp;class=&quot;Range&quot;&nbsp;id=&quot;input9&quot;&nbsp;type=&quot;range&quot;&nbsp;name=&quot;&quot;&nbsp;step=&quot;1&quot;&nbsp;min=&quot;0&quot;&nbsp;max=&quot;100&quot;&nbsp;value=&quot;20&quot;&nbsp;oninput=&quot;idResultRange.textContent=&#39;[&#39;+this.value+&#39;]&#39;&quot;&nbsp;/&gt;
 &lt;/div&gt;</code></pre>
 							<p>
 								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.id('rangeSource')" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rr-copy"></i> COPY</button>
@@ -326,11 +326,11 @@ classes.Docs = class {
 						</div>
 						<div class="ColFlexCalc280 pdt2 pdb2 pdl2">
 <pre id="dualrangeSource"><code class="language-html">&lt;div&nbsp;class=&quot;field&quot;&gt;
-&lt;label&nbsp;for=&quot;dr1&quot;&nbsp;class=&quot;label&quot;&gt;DUAL&nbsp;RANGE&lt;/label&gt;
-&lt;div&nbsp;class=&quot;Dualrange&quot;&nbsp;id=&quot;dualrange1&quot;&gt;
-	&lt;input&nbsp;id=&quot;dr1&quot;&nbsp;type=&quot;range&quot;&nbsp;min=&quot;5&quot;&nbsp;max=&quot;100&quot;&nbsp;value=&quot;20&quot;&nbsp;step=&quot;1&quot;&nbsp;/&gt;
-	&lt;input&nbsp;id=&quot;dr2&quot;&nbsp;type=&quot;range&quot;&nbsp;min=&quot;5&quot;&nbsp;max=&quot;100&quot;&nbsp;value=&quot;80&quot;&nbsp;step=&quot;1&quot;&nbsp;/&gt;
-&lt;/div&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;label&nbsp;for=&quot;dualrange11&quot;&nbsp;class=&quot;label&quot;&gt;DUAL&nbsp;RANGE&nbsp;&lt;span&nbsp;id=&quot;idResultDualRange&quot;&gt;[20,&nbsp;80]&lt;/span&gt;&lt;/label&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;div&nbsp;class=&quot;Dualrange&quot;&nbsp;id=&quot;dualrange1&quot;&nbsp;oninput=&quot;idResultDualRange.textContent&nbsp;=&nbsp;&#39;[&#39;+Dualrange.getValue(&#39;dualrange1&#39;).join(&#39;,&nbsp;&#39;)+&#39;]&#39;;&quot;&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;input&nbsp;id=&quot;dualrange11&quot;&nbsp;type=&quot;range&quot;&nbsp;min=&quot;0&quot;&nbsp;max=&quot;100&quot;&nbsp;value=&quot;20&quot;&nbsp;step=&quot;1&quot;&nbsp;/&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;input&nbsp;id=&quot;dualrange12&quot;&nbsp;type=&quot;range&quot;&nbsp;min=&quot;0&quot;&nbsp;max=&quot;100&quot;&nbsp;value=&quot;80&quot;&nbsp;step=&quot;1&quot;&nbsp;/&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;
 &lt;/div&gt;</code></pre>
 							<p>
 								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.id('dualrangeSource')" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rr-copy"></i> COPY</button>
@@ -351,8 +351,8 @@ classes.Docs = class {
 						</div>
 						<div class="ColFlexCalc280 pdt2 pdb2 pdl2">
 <pre id="searchSource"><code class="language-html">&lt;div&nbsp;class=&quot;field&quot;&gt;
-&lt;label&nbsp;class=&quot;label&quot;&gt;SEARCH&lt;/label&gt;
-&lt;input&nbsp;type=&quot;search&quot;&nbsp;name=&quot;&quot;&nbsp;value=&quot;&quot;&nbsp;placeholder=&quot;search&quot;&nbsp;/&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;label&nbsp;for=&quot;input10&quot;&nbsp;class=&quot;label&quot;&gt;SEARCH&lt;/label&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;input&nbsp;id=&quot;input10&quot;&nbsp;type=&quot;search&quot;&nbsp;name=&quot;&quot;&nbsp;value=&quot;&quot;&nbsp;placeholder=&quot;search&quot;&nbsp;/&gt;
 &lt;/div&gt;</code></pre>
 							<p>
 								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.id('searchSource')" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rr-copy"></i> COPY</button>
@@ -375,11 +375,11 @@ classes.Docs = class {
 						</div>
 						<div class="ColFlexCalc280 pdt2 pdb2 pdl2">
 <pre id="selectSource"><code class="language-html">&lt;div&nbsp;class=&quot;field&quot;&gt;
-&lt;label&nbsp;class=&quot;label&quot;&gt;SELECT&lt;/label&gt;
-&lt;select&nbsp;name=&quot;&quot;&gt;
-	&lt;option&nbsp;value=&quot;1&quot;&gt;1&lt;/option&gt;
-	&lt;option&nbsp;value=&quot;2&quot;&gt;2&lt;/option&gt;
-&lt;/select&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;label&nbsp;for=&quot;select1&quot;&nbsp;class=&quot;label&quot;&gt;SELECT&lt;/label&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;select&nbsp;id=&quot;select1&quot;&nbsp;name=&quot;&quot;&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;option&nbsp;value=&quot;1&quot;&gt;1&lt;/option&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;option&nbsp;value=&quot;2&quot;&gt;2&lt;/option&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;/select&gt;
 &lt;/div&gt;</code></pre>
 							<p>
 								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.id('selectSource')" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rr-copy"></i> COPY</button>
@@ -398,8 +398,8 @@ classes.Docs = class {
 						</div>
 						<div class="ColFlexCalc280 pdt2 pdb2 pdl2">
 <pre id="telSource"><code class="language-html">&lt;div&nbsp;class=&quot;field&quot;&gt;
-&lt;label&nbsp;class=&quot;label&quot;&gt;TEL&lt;/label&gt;
-&lt;input&nbsp;type=&quot;tel&quot;&nbsp;name=&quot;&quot;&nbsp;value=&quot;&quot;&nbsp;placeholder=&quot;tel&quot;&nbsp;/&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;label&nbsp;for=&quot;input11&quot;&nbsp;class=&quot;label&quot;&gt;TEL&lt;/label&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;input&nbsp;id=&quot;input11&quot;&nbsp;type=&quot;tel&quot;&nbsp;name=&quot;&quot;&nbsp;value=&quot;&quot;&nbsp;placeholder=&quot;tel&quot;&nbsp;/&gt;
 &lt;/div&gt;</code></pre>
 							<p>
 								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.id('telSource')" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rr-copy"></i> COPY</button>
@@ -419,8 +419,8 @@ classes.Docs = class {
 						</div>
 						<div class="ColFlexCalc280 pdt2 pdb2 pdl2">
 <pre id="textSource"><code class="language-html">&lt;div&nbsp;class=&quot;field&quot;&gt;
-&lt;label&nbsp;class=&quot;label&quot;&gt;TEXT&lt;/label&gt;
-&lt;input&nbsp;type=&quot;text&quot;&nbsp;name=&quot;&quot;&nbsp;value=&quot;&quot;&nbsp;placeholder=&quot;&quot;&nbsp;/&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;label&nbsp;for=&quot;input12&quot;&nbsp;class=&quot;label&quot;&gt;TEXT&lt;/label&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;input&nbsp;id=&quot;input12&quot;&nbsp;type=&quot;text&quot;&nbsp;name=&quot;&quot;&nbsp;value=&quot;&quot;&nbsp;placeholder=&quot;text&quot;&nbsp;/&gt;
 &lt;/div&gt;</code></pre>
 							<p>
 								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.id('textSource')" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rr-copy"></i> COPY</button>
@@ -440,8 +440,8 @@ classes.Docs = class {
 						</div>
 						<div class="ColFlexCalc280 pdt2 pdb2 pdl2">
 <pre id="textareaSource"><code class="language-html">&lt;div&nbsp;class=&quot;field&quot;&gt;
-&lt;label&nbsp;class=&quot;label&quot;&gt;TEXTAREA&lt;/label&gt;
-&lt;textarea&nbsp;name=&quot;&quot;&nbsp;placeholder=&quot;textarea&quot;&gt;&lt;/textarea&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;label&nbsp;for=&quot;input13&quot;&nbsp;class=&quot;label&quot;&gt;TEXTAREA&lt;/label&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;textarea&nbsp;id=&quot;input13&quot;&nbsp;name=&quot;&quot;&nbsp;placeholder=&quot;textarea&quot;&gt;&lt;/textarea&gt;
 &lt;/div&gt;</code></pre>
 							<p>
 								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.id('textareaSource')" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rr-copy"></i> COPY</button>
@@ -461,8 +461,8 @@ classes.Docs = class {
 						</div>
 						<div class="ColFlexCalc280 pdt2 pdb2 pdl2">
 <pre id="timeSource"><code class="language-html">&lt;div&nbsp;class=&quot;field&quot;&gt;
-&lt;label&nbsp;class=&quot;label&quot;&gt;TIME&lt;/label&gt;
-&lt;input&nbsp;type=&quot;time&quot;&nbsp;name=&quot;&quot;&nbsp;value=&quot;&quot;&nbsp;/&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;label&nbsp;for=&quot;input14&quot;&nbsp;class=&quot;label&quot;&gt;TIME&lt;/label&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;input&nbsp;id=&quot;input14&quot;&nbsp;type=&quot;time&quot;&nbsp;name=&quot;&quot;&nbsp;value=&quot;&quot;&nbsp;/&gt;
 &lt;/div&gt;</code></pre>
 							<p>
 								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.id('timeSource')" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rr-copy"></i> COPY</button>
@@ -482,8 +482,8 @@ classes.Docs = class {
 						</div>
 						<div class="ColFlexCalc280 pdt2 pdb2 pdl2">
 <pre id="urlSource"><code class="language-html">&lt;div&nbsp;class=&quot;field&quot;&gt;
-&lt;label&nbsp;class=&quot;label&quot;&gt;URL&lt;/label&gt;
-&lt;input&nbsp;type=&quot;url&quot;&nbsp;name=&quot;&quot;&nbsp;value=&quot;&quot;&nbsp;placeholder=&quot;url&quot;&nbsp;/&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;label&nbsp;for=&quot;input15&quot;&nbsp;class=&quot;label&quot;&gt;URL&lt;/label&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;input&nbsp;id=&quot;input15&quot;&nbsp;type=&quot;url&quot;&nbsp;name=&quot;&quot;&nbsp;value=&quot;&quot;&nbsp;placeholder=&quot;url&quot;&nbsp;/&gt;
 &lt;/div&gt;</code></pre>
 							<p>
 								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.id('urlSource')" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rr-copy"></i> COPY</button>
@@ -503,8 +503,8 @@ classes.Docs = class {
 						</div>
 						<div class="ColFlexCalc280 pdt2 pdb2 pdl2">
 <pre id="weekSource"><code class="language-html">&lt;div&nbsp;class=&quot;field&quot;&gt;
-&lt;label&nbsp;class=&quot;label&quot;&gt;WEEK&lt;/label&gt;
-&lt;input&nbsp;type=&quot;week&quot;&nbsp;name=&quot;&quot;&nbsp;value=&quot;2023&#45;W01&quot;&nbsp;/&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;label&nbsp;for=&quot;input16&quot;&nbsp;class=&quot;label&quot;&gt;WEEK&lt;/label&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;input&nbsp;id=&quot;input16&quot;&nbsp;type=&quot;week&quot;&nbsp;name=&quot;&quot;&nbsp;value=&quot;2023&#45;W01&quot;&nbsp;/&gt;
 &lt;/div&gt;</code></pre>
 							<p>
 								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.id('weekSource')" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rr-copy"></i> COPY</button>
@@ -524,123 +524,13 @@ classes.Docs = class {
 						</div>
 						<div class="ColFlexCalc280 pdt2 pdb2 pdl2">
 <pre id="toggleSource"><code class="language-html">&lt;div&nbsp;class=&quot;field&quot;&gt;
-&lt;div&nbsp;class=&quot;toggle&quot;&gt;
-	&lt;input&nbsp;id=&quot;toggle1&quot;&nbsp;type=&quot;checkbox&quot;&nbsp;name=&quot;&quot;&nbsp;value=&quot;&quot;&nbsp;/&gt;
-	&lt;label&nbsp;for=&quot;toggle1&quot;&gt;Dark&nbsp;mode&lt;/label&gt;
-&lt;/div&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;div&nbsp;class=&quot;Toggle1&quot;&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;input&nbsp;type=&quot;checkbox&quot;&nbsp;class=&quot;Checkbox&quot;&nbsp;id=&quot;toggle1&quot;&nbsp;name=&quot;&quot;&nbsp;value=&quot;&quot;&nbsp;/&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;label&nbsp;for=&quot;toggle1&quot;&gt;Dark&nbsp;mode&lt;/label&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;
 &lt;/div&gt;</code></pre>
 							<p>
 								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.id('toggleSource')" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rr-copy"></i> COPY</button>
-							</p>
-						</div>
-						<hr class="ColFlex" />
-						<div class="ColFlex280px pdt2 pdb2" id="menuCompToggle2">
-							<p class="mgb2"><b>Toggle 2</b></p>
-							<div class="field">
-								<div class="Toggle2">
-									<input id="toggle2" type="range" name="" min="0" max="1" step="0.1" />
-									<label for="toggle2">Enable?</label>
-								</div>
-							</div>
-						</div>
-					</div>
-					<hr />
-					<h2>JS COMPONENTS</h2>
-					<div class="Flex">
-						<div class="ColFlex pdt2 pdb2" id="menuJsTab">
-							<p class="mgb2"><b>Tab</b></p>
-							<div class="Tabs">
-								<div id="tabs"></div>
-								<div class="TabsArea" id="area1">
-									<div data-tab="tab1">
-										<div class="pd1">
-											<table class="Table">
-												<thead>
-													<tr>
-														<th class="TxLeft">COL 1 <i class="fi fi-rr-arrows-alt-v"></i></th>
-														<th class="TxLeft">COL 2 <i class="fi fi-rr-arrows-alt-v"></i></th>
-														<th class="TxLeft">COL 3 <i class="fi fi-rr-arrows-alt-v"></i></th>
-														<th class="TxLeft">COL 4 <i class="fi fi-rr-arrows-alt-v"></i></th>
-													</tr>
-												</thead>
-												<tbody>
-													<tr>
-														<td>Hydro­gen</td>
-														<td>He­lium</td>
-														<td>Lith­ium</td>
-														<td>Beryl­lium</td>
-													</tr>
-													<tr>
-														<td>Boron</td>
-														<td>Cabon</td>
-														<td>Nitrogen</td>
-														<td>Oxygen</td>
-													</tr>
-													<tr>
-														<td>Fluorine</td>
-														<td>Neon</td>
-														<td>Sodium</td>
-														<td>Magnesium</td>
-													</tr>
-												</tbody>
-											</table>
-										</div>
-									</div>
-									<div data-tab="tab2">
-										<img class="Img-block w100p" alt="carina" src="assets/carina.jpg" />
-									</div>
-									<div data-tab="tab3">
-										<div class="pd3">
-											<p>"Exorcizamus te, omnis immundus spiritus, omnis satanica potestas, omnis incursio infernalis adversarii, omnis legio, omnis congregatio et secta diabolica... Ergo, draco maledicte et omnis legio diabolica, adjuramus te ... cessa decipere humanas creaturas, eisque æternæ perditionìs venenum propinare... Vade, satana, inventor et magister omnis fallaciæ, hostis humanæ salutis... Humiliare sub potenti manu Dei; contremisce et effuge, invocato a nobis sancto et terribili nomine... quem inferi tremunt... Ab insidiis diaboli, libera nos, Domine. Ut Ecclesiam tuam secura tibi facias libertate servire, te rogamus, audi nos."</p>
-										</div>
-									</div>
-									<div data-tab="tab4">
-										<div id="tabs2"></div>
-										<div class="TabsArea" id="area11">
-											<div data-tab="tab11">
-												<div class="pd3">
-													<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt exercitationem repellendus deserunt nemo officia at, alias temporibus autem laborum iure? Libero repellat blanditiis ipsam voluptatibus minima aut pariatur, perspiciatis obcaecati.</p>
-												</div>
-											</div>
-											<div data-tab="tab12">
-												<div class="pd3">
-													<p>"Exorcizamus te, omnis immundus spiritus, omnis satanica potestas, omnis incursio infernalis adversarii, omnis legio, omnis congregatio et secta diabolica... Ergo, draco maledicte et omnis legio diabolica, adjuramus te ... cessa decipere humanas creaturas, eisque æternæ perditionìs venenum propinare... Vade, satana, inventor et magister omnis fallaciæ, hostis humanæ salutis... Humiliare sub potenti manu Dei; contremisce et effuge, invocato a nobis sancto et terribili nomine... quem inferi tremunt... Ab insidiis diaboli, libera nos, Domine. Ut Ecclesiam tuam secura tibi facias libertate servire, te rogamus, audi nos."</p>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<hr class="ColFlex" />
-						<div class="ColFlex280px pdt2 pdb2" id="menuJsTooltip">
-							<p class="mgb2"><b>ToolTip</b></p>
-							<div class="MarginFix">
-								<button class="Btn mgb1" data-title="Tooltip 1" data-title-position="top">TOP</button> 
-								<button class="Btn mgb1" data-title="Tooltip 2" data-title-position="bottom">BOTTOM</button> 
-								<button class="Btn mgb1" data-title="Tooltip 3" data-title-position="left">LEFT</button> 
-								<button class="Btn mgb1" data-title="Tooltip 4" data-title-position="right">RIGHT</button> 
-								<button class="Btn" data-title-for="tip1">HTML</button>
-							</div>
-							<div class="Tooltip" id="tip1">
-								Tooltip <b>HTML</b>
-								<p><img src="assets/skit.png" alt="skit" class="w100p" /></p>
-								Exorcizamus te, omnis immundus spiritus, omnis satanica potestas, omnis incursio infernalis adversarii, omnis legio, omnis congregatio et secta diabolica... Ergo, draco maledicte et omnis legio diabolica, adjuramus te ... cessa decipere humanas creaturas, eisque æternæ perditionìs venenum propinare...
-							</div>
-						</div>
-						<div class="ColFlexCalc280 pdt2 pdb2 pdl2">
-<pre id="tooltipSource"><code class="language-html">&lt;button&nbsp;data&#45;title=&quot;Tooltip&nbsp;1&quot;&nbsp;data&#45;title&#45;position=&quot;TOP&quot;&gt;TOP&lt;/button&gt;&nbsp;
-&lt;button&nbsp;data&#45;title=&quot;Tooltip&nbsp;2&quot;&nbsp;data&#45;title&#45;position=&quot;bottom&quot;&gt;BOTTOM&lt;/button&gt;&nbsp;
-&lt;button&nbsp;data&#45;title=&quot;Tooltip&nbsp;3&quot;&nbsp;data&#45;title&#45;position=&quot;left&quot;&gt;LEFT&lt;/button&gt;&nbsp;
-&lt;button&nbsp;data&#45;title=&quot;Tooltip&nbsp;4&quot;&nbsp;data&#45;title&#45;position=&quot;right&quot;&gt;RIGHT&lt;/button&gt;&nbsp;
-&lt;button&nbsp;data&#45;title&#45;for=&quot;tip1&quot;&gt;HTML&lt;/button&gt;
-&lt;div&nbsp;class=&quot;Tooltip&quot;&nbsp;id=&quot;tip1&quot;&gt;
-Tooltip&nbsp;&lt;b&gt;HTML&lt;/b&gt;
-&lt;p&gt;&lt;img&nbsp;src=&quot;assets/skit.png&quot;&nbsp;alt=&quot;skit&quot;&nbsp;class=&quot;w100p&quot;&nbsp;/&gt;&lt;/p&gt;
-Exorcizamus&nbsp;te,&nbsp;omnis&nbsp;immundus&nbsp;spiritus,&nbsp;omnis&nbsp;satanica&nbsp;potestas,&nbsp;omnis&nbsp;incursio&nbsp;infernalis&nbsp;adversarii,&nbsp;omnis&nbsp;legio,&nbsp;omnis&nbsp;congregatio&nbsp;et&nbsp;secta&nbsp;diabolica...&nbsp;Ergo,&nbsp;draco&nbsp;maledicte&nbsp;et&nbsp;omnis&nbsp;legio&nbsp;diabolica,&nbsp;adjuramus&nbsp;te&nbsp;...&nbsp;cessa&nbsp;decipere&nbsp;humanas&nbsp;creaturas,&nbsp;eisque&nbsp;æternæ&nbsp;perditionìs&nbsp;venenum&nbsp;propinare...
-&lt;/div&gt;</code></pre>
-							<p>
-								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.id('tooltipSource')" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rr-copy"></i> COPY</button>
 							</p>
 						</div>
 					</div>
@@ -657,35 +547,5 @@ Exorcizamus&nbsp;te,&nbsp;omnis&nbsp;immundus&nbsp;spiritus,&nbsp;omnis&nbsp;sat
 		hljs.highlightAll();
 
 		checkbox3.indeterminate = true;
-
-		var tabsys = new Tabs('tabs', 'area1', [
-			{
-				'tab': '<i class="fi fi-rr-grid"></i> TABLE', 
-				'for': 'tab1'
-			},
-			{
-				'tab': '<i class="fi fi-rr-picture"></i> IMAGE', 
-				'for': 'tab2'
-			},
-			{
-				'tab': '<i class="fi fi-rr-text"></i> TEXT', 
-				'for': 'tab3'
-			},
-			{
-				'tab': '<i class="fi fi-rr-bars-progress"></i> SECOND LEVEL', 
-				'for': 'tab4'
-			}
-		]);
-
-		var tabsys2 = new Tabs('tabs2', 'area11', [
-			{
-				'tab': '<i class="fi fi-rr-grid"></i> L1', 
-				'for': 'tab11'
-			},
-			{
-				'tab': '<i class="fi fi-rr-picture"></i> L2', 
-				'for': 'tab12'
-			}
-		]);
 	}
 }
