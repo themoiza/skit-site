@@ -224,6 +224,7 @@ header a{
 	width: 100%;
 	background-color: hsl(var(--background-hue) var(--background-sat) var(--background-lig));
 	z-index: 5000;
+	overflow-y: auto;
 }
 
 section{
@@ -259,13 +260,12 @@ section{
 	padding-bottom: 2rem;
 }
 .menuMobile{
-	overflow-y: scroll;
 	width: 100%;
 	padding-top: 2rem;
 	padding-bottom: 2rem;
 }
 
-.menu:hover, .menuMobile:hover{
+.menu:hover{
 	overflow-y: auto;
 }
 

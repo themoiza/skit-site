@@ -804,7 +804,6 @@ class Modal{
 window.pages = new Object;
 window.currentPage = '/';
 window.classes = new Object;
-window.listenPopEvent = null;
 window.popStateScroll = {};
 window.appName = SkitConfig.MVC.appName;
 
@@ -816,6 +815,7 @@ class Mvc{
 		this.router = new Router;
 		this.pushHistory = new PushHistory;
 		this.pushHistory.init(this);
+		this.changePage = false;
 
 		window.screenId = this._randId();
 
@@ -1004,15 +1004,16 @@ class Mvc{
 
 	triggerPopState(){
 
-		if(listenPopEvent !== null && typeof(listenPopEvent.get()) !== 'undefined'){
+		Debounce(() => {
 
-			listenPopEvent.get();
-		}
-	}
+			if(!this.changePage){
 
-	addPopListener(obj){
+				this.changePage = new Event('changePage');
+			}
 
-		listenPopEvent = obj;
+			document.dispatchEvent(this.changePage);
+
+		}, 10, 'triggerPopState');
 	}
 
 	updateTitle(t){
@@ -1106,8 +1107,6 @@ class PushHistory {
 			var controller = window.location.href.replace(host, '');
 
 			this.app.loadController();
-
-			this.app.triggerPopState();
 
 		}, true);
 
@@ -1216,6 +1215,8 @@ class PushHistory {
 		history.pushState(JSON.stringify({'page': controller}), '', controller);
 
 		this.app.loadController();
+
+		this.app.triggerPopState();
 	}
 
 	goFront (controller){

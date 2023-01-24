@@ -23,3 +23,10 @@ window.TooglerReadonly = (id) => {
         f.parentElement.classList.add('readonly');
     }
 };
+
+document.addEventListener('DOMContentLoaded', () => {
+
+    document.addEventListener('changePage', () => {
+        navMobileActive.classList.remove('nav-mobile-active');
+    });
+});
