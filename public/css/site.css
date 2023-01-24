@@ -162,12 +162,17 @@ p{
 .donates{
 	display: block;
 	margin: auto;
-	width: 38rem;
+	width: 45rem;
 	max-width: calc(100vw - 4rem);
 }
 
-.donates img{
+.donates .img{
 	height: 5rem;
+}
+
+.donates .pix{
+	width: 100%;
+	display: block;
 }
 
 .donate{

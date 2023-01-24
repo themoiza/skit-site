@@ -9,6 +9,8 @@ classes.Donate = class {
 
 		this.app.updateTitle(this.title);
 		this.app.updateDescription(this.description);
+
+		this.pix = 'ZG9uYXRlQHNraXQubmV0d29yaw==';
 	}
 
 	content(){
@@ -16,6 +18,21 @@ classes.Donate = class {
 		return `
 			<section class="donates">
 				<h1>Donate</h1>
+				<div class="donate">
+					<div class="Flex FlexVcenter">
+						<div class="ColFlex4">
+							<img alt="pix" class="pix" src="/assets/qrcodepix.jpeg" />
+						</div>
+						<div class="ColFlex8 pdl2">
+							<div class="Title">
+								<img alt="pix" class="img" src="/assets/pix.svg">
+							</div>
+							<div class="TxCenter">
+								<button tabindex="-1" onclick="Tooltip.update(this, 'copied');Copy.string(atob(pages.donate.pix))" class="Btn BtnPri" data-title="copy to clipboard" data-title-position="right"><i class="fi fi-rr-copy"></i> COPY CHAVE PIX</button>
+							</div>
+						</div>
+					</div>
+				</div>
 				<div class="donate">
 					<div class="Title">
 						<i class="fi fi-brands-bitcoin" style="vertical-align: middle"></i>
@@ -48,7 +65,7 @@ classes.Donate = class {
 				</div>
 				<div class="donate">
 					<div class="Title">
-						<img alt="ltc" src="/assets/ltc.svg">
+						<img class="img" alt="ltc" src="/assets/ltc.svg">
 					</div>
 					<div class="Flex FlexVcenter">
 						<div class="ColFlex9">
@@ -63,7 +80,7 @@ classes.Donate = class {
 				</div>
 				<div class="donate">
 					<div class="Title">
-						<img alt="bnb" src="/assets/bnb.svg">
+						<img class="img" alt="bnb" src="/assets/bnb.svg">
 					</div>
 					<div class="Flex FlexVcenter">
 						<div class="ColFlex9">
@@ -78,7 +95,7 @@ classes.Donate = class {
 				</div>
 				<div class="donate">
 					<div class="Title">
-					<img alt="bch" src="/assets/bch.svg">
+					<img class="img" alt="bch" src="/assets/bch.svg">
 					</div>
 					<div class="Flex FlexVcenter">
 						<div class="ColFlex9">
