@@ -48,14 +48,72 @@
 				<a target="_blank" rel="no-follow" href="https://discord.com/channels/973324521987792916/973324521987792918"><i class="fi fi-brands-discord"></i><span class="NoMob"> DISCORD</span></a>
 				<a target="_blank" rel="no-follow" href="https://www.instagram.com/skit.network/"><i class="fi fi-brands-instagram"></i><span class="NoMob"> INSTAGRAM</span></a>
 				<a target="_blank" rel="no-follow" href="https://github.com/themoiza/skit/"><i class="fi fi-brands-github"></i><span class="NoMob"> CONTRIBUTE</span></a>
-				<div class="field">
-					<select data-skit-listen="darkmode" onchange="Darkmode.config(this.value)">
-						<option value="1">Dark Mode</option>
-						<option value="2">Light Mode</option>
-						<option value="3">System</option>
-					</select>
+				<div class="nav-darkmode">
+					<div class="field">
+						<select data-skit-listen="darkmode" onchange="Darkmode.config(this.value)">
+							<option value="1">Dark Mode</option>
+							<option value="2">Light Mode</option>
+							<option value="3">System</option>
+						</select>
+					</div>
+				</div>
+				<div class="nav-menu-mobile">
+					<button onclick="navMobileActive.classList.toggle('nav-mobile-active')" class="Btn w40"><i class="fi-rr-menu-burger"></i></button>
 				</div>
 			</nav>
+			<div class="nav-mobile" id="navMobileActive">
+				<div class="menuMobile">
+					<button onclick="submenuM1.classList.toggle('active')" class="title"><i class="fi fi-rr-text"></i> FORMS</button>
+					<div id="submenuM1" class="submenu">
+						<div><a href="/docs#menuCheckbox">Checkbox</a></div>
+						<div><a href="/docs#menuInputColor">Color</a></div>
+						<div><a href="/docs#menuInputDatalist">Datalist</a></div>
+						<div><a href="/docs#menuInputDate">Date</a></div>
+						<div><a href="/docs#menuInputDateLocal">Date Local</a></div>
+						<div><a href="/docs#menuInputEmail">E-mail</a></div>
+						<div><a href="/docs#menuInputFile">File</a></div>
+						<div><a href="/docs#menuInputMonth">Month</a></div>
+						<div><a href="/docs#menuInputNumber">Number</a></div>
+						<div><a href="/docs#menuInputPassword">Password</a></div>
+						<div><a href="/docs#menuInputRadio">Radio</a></div>
+						<div><a href="/docs#menuInputRange">Range</a></div>
+						<div><a href="/docs#menuInputSearch">Search</a></div>
+						<div><a href="/docs#menuInputSelect">Select</a></div>
+						<div><a href="/docs#menuInputTel">Tel</a></div>
+						<div><a href="/docs#menuInputText">Text</a></div>
+						<div><a href="/docs#menuInputTextarea">Textarea</a></div>
+						<div><a href="/docs#menuInputTime">Time</a></div>
+						<div><a href="/docs#menuInputUrl">Url</a></div>
+						<div><a href="/docs#menuInputWeek">Week</a></div>
+					</div>
+					<button onclick="submenuM2.classList.toggle('active')" class="title"><i class="fi fi-rr-comment-code"></i> NOT STANDARD</button>
+					<div id="submenuM2" class="submenu">
+						<div><a href="/icons">Icons</a></div>
+						<div><a href="/info">Info</a></div>
+						<div><a href="/docs#menuDualRange">Dual Range</a></div>
+						<div><a href="/docs#menuCompToggle">Toggle</a></div>
+					</div>
+					<button onclick="submenuM3.classList.toggle('active')" class="title"><i class="fi fi-rr-mobile-button"></i> HTML</button>
+					<div id="submenuM3" class="submenu">
+						<div><a href="/buttons">Buttons</a></div>
+						<div><a href="/table">Table</a></div>
+					</div>
+					<button onclick="submenuM4.classList.toggle('active')" class="title"><i class="fi fi-rr-drafting-compass"></i> JS COMPONENTS</button>
+					<div id="submenuM4" class="submenu">
+						<div><a href="/confirmcomp">Confirm</a></div>
+						<div><a href="/copy">Copy</a></div>
+						<div><a href="/debounce">Debounce</a></div>
+						<div><a href="/lockscreen">LockScreen</a></div>
+						<div><a href="/modalcomp">Modal</a></div>
+						<div><a href="/pagination">Pagination</a></div>
+						<div><a href="/paniccomp">Panic</a></div>
+						<div><a href="/superselect">Super Select</a></div>
+						<div><a href="/tabs">Tabs</a></div>
+						<div><a href="/tooltip">Tooltip</a></div>
+						<div><a href="/warning-comp">Warning (Toasts)</a></div>
+					</div>
+				</div>
+			</div>
 		</header>
 		<div id="app"></div>
 		<script>
@@ -85,6 +143,7 @@
 							'lockscreen': 'LockScreenComp::/js/pages/lockscreencomp.js',
 							'superselect': 'Superselect::/js/pages/superselect.js',
 							'tabs': 'TabsPage::/js/pages/tabspage.js',
+							'table': 'TablePage::/js/pages/tablepage.js',
 							'tooltip': 'ToolTipPage::/js/pages/tooltippage.js',
 							'warning-comp': 'WarningComp::/js/pages/warningcomp.js'
 						}

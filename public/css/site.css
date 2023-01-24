@@ -207,6 +207,25 @@ header a{
 	padding: 1rem 0;
 }
 
+.nav .nav-darkmode{
+	flex: 1 1 0;
+}
+
+.nav .nav-menu-mobile{
+	display: none;
+}
+
+.nav-mobile{
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 4rem;
+	height: calc(100vh - 4rem);
+	width: 100%;
+	background-color: hsl(var(--background-hue) var(--background-sat) var(--background-lig));
+	z-index: 5000;
+}
+
 section{
 	margin: auto;
 	display: block;
@@ -229,7 +248,7 @@ section{
 }
 
 .menu{
-	border-right: 1px solid hsl(var(--foreground-hue) var(--foreground-sat) var(--foreground-lig-soft));;
+	border-right: 1px solid hsl(var(--foreground-hue) var(--foreground-sat) var(--foreground-lig-soft));
 	top: calc(4rem + var(--virtual-top));
 	bottom: 0;
 	position: fixed;
@@ -239,12 +258,18 @@ section{
 	padding-top: 2rem;
 	padding-bottom: 2rem;
 }
+.menuMobile{
+	overflow-y: scroll;
+	width: 100%;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
 
-.menu:hover{
+.menu:hover, .menuMobile:hover{
 	overflow-y: auto;
 }
 
-.menu .title{
+.menu .title, .menuMobile .title{
 	display: block;
 	appearance: none;
 	cursor: pointer;
@@ -261,11 +286,11 @@ section{
 	color: hsl(var(--foreground-hue), var(--foreground-sat), calc(var(--foreground-lig) + 2%));
 }
 
-.menu .title:hover{
+.menu .title:hover, .menuMobile .title:hover{
 	background-color: rgba(0,0,0,0.1);
 }
 
-.menu a{
+.menu a, .menuMobile a{
 	display: block;
 	padding: 0.4rem 1rem 0.4rem 2rem;
 	width: 100%;
@@ -273,7 +298,7 @@ section{
 	font-size: 0.85rem;
 	color: hsl(var(--foreground-hue), var(--foreground-sat), calc(var(--foreground-lig) + 2%));
 }
-.menu a:hover{
+.menu a:hover, .menuMobile a:hover{
 	background-color: rgba(0,0,0,0.1);
 }
 .submenu{
@@ -425,9 +450,15 @@ code.hljs {
 .LightMode .hljs-bullet,
 .LightMode .hljs-deletion,
 .LightMode .hljs-link,
-.LightMode .hljs-meta,
-.LightMode .hljs-regexp,
-.LightMode .hljs-subst,
+.LightMode .hljs-meta,.nav{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	margin: auto;
+	width: 100%;
+	gap: 1.4rem;
+	padding: 1rem 0;
+}
 .LightMode .hljs-symbol,
 .LightMode .hljs-template-variable,
 .LightMode .hljs-variable {
@@ -453,4 +484,17 @@ code.hljs {
 i.fi{
 	display: inline-block;
 	vertical-align: top;
+}
+
+@media all and (max-width: 1023px) {
+	.nav{
+		gap: 1rem;
+	}
+
+	.nav .nav-menu-mobile{
+		display: block;
+	}
+	.nav-mobile-active{
+		display: block;
+	}
 }
