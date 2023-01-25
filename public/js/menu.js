@@ -1,7 +1,7 @@
 window.menu = `
 <nav class="menu">
 	<button onclick="submenu1.classList.toggle('active')" class="title"><i class="fi fi-rr-text"></i> FORMS</button>
-	<div id="submenu1" class="submenu active">
+	<div id="submenu1" class="submenu">
 		<div><a href="/docs#menuCheckbox">Checkbox</a></div>
 		<div><a href="/docs#menuInputColor">Color</a></div>
 		<div><a href="/docs#menuInputDatalist">Datalist</a></div>
@@ -24,14 +24,14 @@ window.menu = `
 		<div><a href="/docs#menuInputWeek">Week</a></div>
 	</div>
 	<button onclick="submenu2.classList.toggle('active')" class="title"><i class="fi fi-rr-comment-code"></i> NOT STANDARD</button>
-	<div id="submenu2" class="submenu active">
+	<div id="submenu2" class="submenu">
 		<div><a href="/icons">Icons</a></div>
 		<div><a href="/info">Info</a></div>
 		<div><a href="/docs#menuDualRange">Dual Range</a></div>
 		<div><a href="/docs#menuCompToggle">Toggle</a></div>
 	</div>
 	<button onclick="submenu4.classList.toggle('active')" class="title"><i class="fi fi-rr-mobile-button"></i> HTML</button>
-	<div id="submenu4" class="submenu active">
+	<div id="submenu4" class="submenu">
 		<div><a href="/buttons">Buttons</a></div>
 		<div><a href="/table">Table</a></div>
 	</div>

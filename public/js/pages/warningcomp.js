@@ -3,8 +3,8 @@ classes.WarningComp = class {
 	constructor(app){
 
 		this.app = app;
-		this.title = 'Warning';
-		this.description = 'Warning';
+		this.title = 'Warning (Toasts)';
+		this.description = 'Warning Component(Toasts)';
 
 		this.app.updateTitle(this.title);
 		this.app.updateDescription(this.description);
@@ -18,7 +18,8 @@ classes.WarningComp = class {
 					`+window.menu+`
 				</div>
 				<div class="ColFlexCalc220 pd2" id="idIcons">
-					<h1>Warning</h1>
+					<h1>`+this.title+`</h1>
+					<p>`+this.description+`</p>
 					<div class="Flex">
 						<div class="ColFlex280px pdt2 pdb2">
 							<h2>Live Preview</h2>
@@ -45,7 +46,7 @@ classes.WarningComp = class {
 									<div class="mgb2">
 										<div class="field w100p">
 											<label class="label">TIMEOUT</label>
-											<input id="idWarningTimeout" type="number" step="1" min="100" value="10000" max="99999999999" placeholder="in ms, min 100" />
+											<input id="idWarningTimeout" type="number" step="1" min="-1" value="10000" max="99999999999" placeholder="in ms, min 100" />
 										</div>
 									</div>
 									<div class="mgb2">
@@ -132,7 +133,7 @@ classes.WarningComp = class {
 								</tbody>
 							</table>
 							<p><i class="fi fi-rr-undo-alt"></i> Return: void</p>
-							<h2>COLOR</h2>
+							<h2>COLORS</h2>
 							<p>The available options are:</p>
 							<ul>
 								<li>danger</li>
@@ -141,7 +142,7 @@ classes.WarningComp = class {
 								<li>dark</li>
 								<li>light</li>
 							</ul>
-							<h2>POSITION</h2>
+							<h2>POSITIONS</h2>
 							<p>The available options are:</p>
 							<ul>
 								<li>1 Left Bottom</li>
