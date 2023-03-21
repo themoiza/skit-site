@@ -296,7 +296,9 @@ classes.Docs = class {
 						<div class="ColFlex280px pdt2 pdb2" id="menuInputRange">
 							<div class="field w100p">
 								<label for="input9" class="label">RANGE <span id="idResultRange">[20]</span></label>
-								<input class="Range" id="input9" type="range" name="" step="1" min="0" max="100" value="20" oninput="idResultRange.textContent='['+this.value+']'" />
+								<div class="Range">
+									<input id="input9" type="range" name="" step="1" min="0" max="100" value="20" oninput="idResultRange.textContent='['+this.value+']'" />
+								</div>
 							</div>
 							<p>
 								<button onclick="ToogleDisabled('input9')" class="Btn BtnTrans" data-title="Toggle Disabled" data-title-position="right">TG DISABLED</button>
